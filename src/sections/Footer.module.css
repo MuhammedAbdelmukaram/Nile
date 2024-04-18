@@ -1,0 +1,212 @@
+.photo202403301404223Icon {
+    width: 81px;
+    position: relative;
+    height: 48px;
+    object-fit: cover;
+  }
+  .div,
+  .loremIpsumDolor,
+  .xxxnilecomXxxnilecom {
+    width: 391px;
+    position: relative;
+    display: inline-block;
+    flex-shrink: 0;
+  }
+  .loremIpsumDolor {
+    font-weight: 200;
+    height: 78px;
+  }
+  .div,
+  .xxxnilecomXxxnilecom {
+    height: 16px;
+  }
+  .div {
+    width: 391.6px;
+    transform: rotate(-0.2deg);
+  }
+  .frameWrapper,
+  .photo202403301404223Parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .photo202403301404223Parent {
+    gap: var(--gap-3xs);
+  }
+  .frameWrapper {
+    font-size: var(--font-size-3xs);
+    color: var(--color-gray-500);
+    font-family: var(--font-inter);
+  }
+  .quickLink,
+  .siteLinks {
+    width: 129px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .siteLinks {
+    margin: 0;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+    height: 20px;
+    flex-shrink: 0;
+  }
+  .quickLink {
+    font-weight: 200;
+  }
+  .frameContainer,
+  .quickLinkParent,
+  .siteLinksParent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .quickLinkParent {
+    gap: var(--gap-3xs);
+    font-size: var(--font-size-3xs);
+    color: var(--color-gray-500);
+    font-family: var(--font-inter);
+  }
+  .frameContainer,
+  .siteLinksParent {
+    gap: var(--gap-sm);
+  }
+  .frameContainer {
+    flex-direction: row;
+    gap: var(--gap-26xl);
+    text-align: center;
+  }
+  .subscribeToNewsletter {
+    margin: 0;
+    width: 237px;
+    position: relative;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+    display: flex;
+    align-items: center;
+    height: 20px;
+    flex-shrink: 0;
+  }
+  .frameChild {
+    border: 1px solid var(--color-deepskyblue);
+    outline: 0;
+    font-family: var(--font-inter);
+    font-size: var(--font-size-3xs);
+    background-color: var(--color-whitesmoke-200);
+    width: 357px;
+    position: relative;
+    border-radius: var(--br-8xs);
+    box-sizing: border-box;
+    height: 41px;
+    padding: var(--padding-xs) var(--padding-xs) var(--padding-smi);
+    color: var(--color-gray-200);
+  }
+  .groupChild,
+  .subscribe {
+    position: absolute;
+    left: 0;
+    width: 129px;
+  }
+  .groupChild {
+    top: 0;
+    border-radius: var(--br-8xs);
+    background-color: var(--color-deepskyblue);
+    border: 1px solid var(--color-deepskyblue);
+    box-sizing: border-box;
+    height: 31px;
+  }
+  .subscribe {
+    top: 8px;
+    font-size: var(--font-size-3xs);
+    text-transform: uppercase;
+    font-family: var(--font-inter);
+    color: var(--color-white);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 16px;
+  }
+  .rectangleParent {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    width: 129px;
+    position: relative;
+    height: 31px;
+  }
+  .subscribeToNewsletterParent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    gap: var(--gap-3xs);
+    text-align: right;
+  }
+  .frameGroup {
+    position: absolute;
+    top: 0;
+    left: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: var(--gap-65xl);
+  }
+  .groupItem {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--color-deepskyblue);
+    width: 1728px;
+    height: 101px;
+  }
+  .loremIpsumDolor1 {
+    position: absolute;
+    top: 25px;
+    left: calc(50% - 451px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 902px;
+    height: 52px;
+  }
+  .frameParent,
+  .rectangleGroup {
+    position: absolute;
+    left: 0;
+    width: 1728px;
+  }
+  .rectangleGroup {
+    top: 237px;
+    height: 101px;
+    text-align: center;
+    font-size: var(--font-size-3xs);
+    color: var(--color-white);
+    font-family: var(--font-inter);
+  }
+  .frameParent {
+    top: 53px;
+    height: 338px;
+  }
+  .footer {
+    width: 1728px;
+    position: relative;
+    border-top: 1px solid var(--color-deepskyblue);
+    box-sizing: border-box;
+    height: 391px;
+    overflow: hidden;
+    flex-shrink: 0;
+    text-align: left;
+    font-size: var(--font-size-base);
+    color: var(--color-deepskyblue);
+    font-family: var(--font-audiowide);
+  }
+  

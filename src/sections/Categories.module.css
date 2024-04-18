@@ -1,0 +1,61 @@
+.groupChild {
+    position: absolute;
+    top: calc(50% - 25px);
+    left: 0;
+    border-radius: 50%;
+    background-color: var(--color-deepskyblue);
+    width: 50px;
+    height: 50px;
+  }
+  .vectorIcon {
+    position: absolute;
+    height: 30%;
+    width: 20%;
+    top: 34%;
+    right: 44%;
+    bottom: 36%;
+    left: 36%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: contain;
+  }
+  .ellipseParent {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    width: 50px;
+    position: relative;
+    height: 50px;
+  }
+  .frameParent {
+    width: 1114px;
+    height: 340px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 50px 80px;
+  }
+  .frameChild {
+    width: 50px;
+    position: relative;
+    height: 50px;
+  }
+  .groupParent {
+    position: absolute;
+    top: 120px;
+    left: calc(50% - 657.5px);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-31xl);
+    text-align: center;
+    font-size: var(--font-size-base);
+    color: var(--color-gray-500);
+    font-family: var(--font-audiowide);
+  }
+  

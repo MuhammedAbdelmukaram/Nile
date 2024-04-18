@@ -1,0 +1,118 @@
+.blobBgIcon {
+    position: absolute;
+    top: -317px;
+    left: -360.8px;
+    width: 2496.5px;
+    height: 688.9px;
+  }
+  .offerBanerChild {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 864px);
+    background-color: var(--color-lightskyblue-200);
+    backdrop-filter: blur(105px);
+    border-top: 1px solid var(--color-deepskyblue);
+    border-bottom: 1px solid var(--color-deepskyblue);
+    box-sizing: border-box;
+    width: 1728px;
+    height: 110.3px;
+  }
+  .frameChild {
+    width: 50px;
+    position: relative;
+    height: 50px;
+    object-fit: contain;
+  }
+  .upTo40 {
+    margin: 0;
+    position: absolute;
+    top: 7.3px;
+    left: calc(50% - 414px);
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 421px;
+    height: 41.7px;
+  }
+  .groupChild {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-13xl);
+    background-color: var(--color-deepskyblue);
+    width: 390px;
+    height: 60.6px;
+  }
+  .days12,
+  .saleStartsIn {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .days12 {
+    top: 0;
+    left: calc(50% - 59.5px);
+    width: 233px;
+    height: 30.8px;
+  }
+  .saleStartsIn {
+    margin: 0;
+    top: 7.9px;
+    left: 0;
+    font-size: var(--font-size-mini);
+    font-weight: 300;
+    font-family: var(--font-inter);
+    width: 102px;
+    height: 17.9px;
+  }
+  .days121530Parent {
+    position: absolute;
+    top: 13.9px;
+    left: calc(50% - 173px);
+    width: 347px;
+    height: 30.8px;
+  }
+  .rectangleParent {
+    position: absolute;
+    top: 0;
+    left: 438px;
+    width: 390px;
+    height: 60.6px;
+    color: var(--color-white);
+  }
+  .frameItem,
+  .upTo40OffOnAllApplianceParent {
+    width: 828px;
+    position: relative;
+    height: 60.6px;
+  }
+  .frameItem {
+    width: 50px;
+    height: 50px;
+  }
+  .groupParent {
+    position: absolute;
+    top: 25px;
+    left: 268px;
+    width: 1192px;
+    height: 60.6px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-113xl);
+  }
+  .offerBaner {
+    width: 1728px;
+    position: relative;
+    height: 110.3px;
+    text-align: center;
+    font-size: var(--font-size-5xl);
+    color: var(--color-gray-600);
+    font-family: var(--font-audiowide);
+  }
+  
