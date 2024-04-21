@@ -1,4 +1,4 @@
-import Category from "../components/Category";
+import Category from "../../components/LandingPage/Category";
 import styles from "./Categories.module.css";
 
 const Categories = () => {

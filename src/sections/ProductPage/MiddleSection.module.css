@@ -1,0 +1,26 @@
+.image20Icon,
+.image21Icon,
+.image22Icon {
+  width: 834px;
+  position: relative;
+  height: 356px;
+  object-fit: cover;
+}
+.image21Icon,
+.image22Icon {
+  width: 833px;
+}
+.image22Icon {
+  width: 1667px;
+  height: 683.2px;
+}
+.featuredImages {
+  width: 1667px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xl) 0;
+  box-sizing: border-box;
+}

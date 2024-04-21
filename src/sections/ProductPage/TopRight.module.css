@@ -1,0 +1,45 @@
+.sponsored,
+.vectorIcon {
+  position: absolute;
+  top: 0;
+  left: 9px;
+}
+.vectorIcon {
+  height: 70%;
+  width: 14.29%;
+  top: 20%;
+  right: 85.71%;
+  bottom: 10%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.sponsoredParent {
+  width: 49px;
+  position: relative;
+  height: 10px;
+}
+.image23Parent,
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.image23Parent {
+  width: 314px;
+  height: 334.7px;
+  align-items: flex-end;
+  gap: var(--gap-11xs);
+  font-size: var(--font-size-5xs);
+  color: var(--color-darkgray-200);
+}
+.sidebar {
+  align-items: center;
+  gap: var(--gap-xs);
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-gray-500);
+  font-family: var(--font-inter);
+}

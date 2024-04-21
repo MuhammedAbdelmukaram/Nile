@@ -1,0 +1,210 @@
+.image6Icon {
+    width: 199px;
+    position: relative;
+    border-radius: var(--br-4xs);
+    height: 192px;
+    object-fit: cover;
+  }
+  .groupChild {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-15xl);
+    background-color: var(--color-deepskyblue);
+    width: 67px;
+    height: 22px;
+  }
+  .div {
+    position: absolute;
+    top: 5.5px;
+    left: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 11px;
+  }
+  .rectangleParent {
+    width: 67px;
+    position: relative;
+    height: 22px;
+  }
+  .vectorIcon,
+  .vectorIcon1,
+  .vectorIcon2,
+  .vectorIcon3,
+  .vectorIcon4 {
+    width: 20px;
+    position: relative;
+    height: 19.1px;
+    object-fit: cover;
+  }
+  .vectorIcon4 {
+    width: 19.9px;
+    height: 19px;
+  }
+  .groupParent,
+  .vectorParent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-9xs);
+  }
+  .groupParent {
+    height: 24px;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-7xs);
+    color: var(--color-white);
+  }
+  .sol {
+    position: relative;
+  }
+  .off,
+  .sol1 {
+    position: absolute;
+    top: 0;
+  }
+  .sol1 {
+    left: 0;
+    text-decoration: line-through;
+    font-weight: 300;
+  }
+  .off {
+    left: 46px;
+    font-weight: 600;
+    color: var(--color-black);
+  }
+  .solGroup {
+    width: 92px;
+    position: relative;
+    height: 12px;
+    font-size: var(--font-size-3xs);
+    color: var(--color-dimgray);
+    font-family: var(--font-inter);
+  }
+  .solParent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: var(--gap-5xl);
+    font-size: var(--font-size-base);
+    font-family: var(--font-audiowide);
+  }
+  .getDeliveredBy {
+    color: var(--color-dimgray);
+  }
+  .monday1stApril {
+    font-weight: 600;
+  }
+  .getDeliveredByContainer1 {
+    width: 100%;
+  }
+  .getDeliveredByContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    width: 194px;
+    height: 9px;
+  }
+  .span {
+    font-weight: 600;
+    color: var(--color-gray-500);
+  }
+  .deliveryFeesContainer1 {
+    width: 100%;
+  }
+  .deliveryFeesContainer {
+    position: absolute;
+    top: 11px;
+    left: 0;
+    display: flex;
+    align-items: center;
+    width: 114px;
+    height: 9px;
+    color: var(--color-dimgray);
+  }
+  .getDeliveredByMonday1stApParent {
+    width: 194px;
+    position: relative;
+    height: 20px;
+    text-align: left;
+    font-size: var(--font-size-5xs);
+  }
+  .image6Parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: var(--gap-8xs);
+  }
+  .buyNow,
+  .groupItem {
+    position: absolute;
+    top: 0;
+  }
+  .groupItem {
+    left: 0;
+    border-radius: var(--br-xs);
+    background-color: var(--color-gray-500);
+    width: 204px;
+    height: 44.8px;
+  }
+  .buyNow {
+    margin: 0;
+    left: calc(50% - 64.9px);
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 128.9px;
+    height: 45px;
+  }
+  .rectangleGroup {
+    width: 204px;
+    position: relative;
+    height: 45px;
+    font-size: var(--font-size-base);
+    color: var(--color-white);
+    font-family: var(--font-audiowide);
+  }
+  .frameParent {
+    position: absolute;
+    top: 12px;
+    left: 13px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-4xs);
+  }
+  .productTile1Child {
+    position: absolute;
+    top: 20px;
+    left: 181px;
+    width: 28px;
+    height: 28px;
+    object-fit: cover;
+  }
+  .productTile1 {
+    width: 230px;
+    position: relative;
+    border-radius: var(--br-mini);
+    background-color: var(--color-white);
+    border: 1px solid var(--color-deepskyblue);
+    box-sizing: border-box;
+    height: 350px;
+    overflow: hidden;
+    flex-shrink: 0;
+    text-align: center;
+    font-size: var(--font-size-3xs);
+    color: var(--color-gray-500);
+    font-family: var(--font-inter);
+  }
+  

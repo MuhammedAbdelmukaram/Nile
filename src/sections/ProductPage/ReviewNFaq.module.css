@@ -1,0 +1,26 @@
+.faq {
+    width: 799px;
+    height: 697px;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding: var(--padding-lg) 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: var(--font-size-17xl);
+  }
+  .frameParent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-2xs);
+    text-align: left;
+    font-size: var(--font-size-xl);
+    color: var(--color-black);
+    font-family: var(--font-audiowide);
+  }
+  
