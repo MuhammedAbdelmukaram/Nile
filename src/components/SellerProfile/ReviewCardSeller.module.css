@@ -1,0 +1,106 @@
+.frameChild {
+    width: 34px;
+    position: relative;
+    border-radius: 50%;
+    height: 34px;
+    object-fit: cover;
+  }
+  .ellipseParent,
+  .johnDoe {
+    display: flex;
+    align-items: center;
+  }
+  .johnDoe {
+    width: 48px;
+    position: relative;
+    height: 15px;
+    flex-shrink: 0;
+  }
+  .ellipseParent {
+    flex-direction: row;
+    justify-content: center;
+    gap: var(--gap-5xs);
+  }
+  .vectorIcon,
+  .vectorIcon4 {
+    width: 20px;
+    position: relative;
+    height: 19.1px;
+  }
+  .vectorIcon4 {
+    width: 19.9px;
+    height: 19px;
+  }
+  .frameGroup,
+  .vectorParent {
+    display: flex;
+    flex-direction: row;
+  }
+  .vectorParent {
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-9xs);
+  }
+  .frameGroup {
+    width: 397px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .loremIpsumDolor,
+  .purchasedOn4th {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .purchasedOn4th {
+    width: 305px;
+    white-space: pre-wrap;
+    height: 15px;
+  }
+  .loremIpsumDolor {
+    width: 293px;
+    font-size: var(--font-size-xs);
+    font-weight: 500;
+    color: var(--color-black);
+    height: 13px;
+  }
+  .purchasedOn4thMarch2024Parent {
+    width: 397px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: var(--font-size-5xs);
+  }
+  .loremIpsumDolor1 {
+    width: 397px;
+    position: relative;
+    display: inline-block;
+    height: 59px;
+    flex-shrink: 0;
+  }
+  .frameParent,
+  .loremIpsumDolorSitAmetCoWrapper {
+    width: 397px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .loremIpsumDolorSitAmetCoWrapper {
+    height: 48px;
+    justify-content: flex-start;
+    padding: var(--padding-8xs) 0 0;
+    box-sizing: border-box;
+    font-size: var(--font-size-2xs);
+    color: var(--color-black);
+  }
+  .frameParent {
+    justify-content: center;
+    gap: var(--gap-5xs);
+    text-align: left;
+    font-size: var(--font-size-3xs);
+    color: var(--color-gray-400);
+    font-family: var(--font-inter);
+  }
+  

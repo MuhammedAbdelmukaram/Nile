@@ -1,0 +1,155 @@
+.image19Icon {
+    width: 370px;
+    position: relative;
+    border-radius: var(--br-5xs);
+    height: 370px;
+    object-fit: cover;
+  }
+  .kreoTechPvt,
+  .loremIpsumDolor {
+    margin: 0;
+    position: relative;
+    font-weight: 400;
+  }
+  .kreoTechPvt {
+    font-size: var(--font-size-21xl);
+    font-family: inherit;
+  }
+  .loremIpsumDolor {
+    width: 794px;
+    font-size: inherit;
+    font-family: var(--font-inter);
+    text-align: left;
+    display: inline-block;
+    height: 76px;
+    flex-shrink: 0;
+  }
+  .vectorIcon,
+  .vectorIcon4 {
+    width: 20px;
+    position: relative;
+    height: 19.1px;
+  }
+  .vectorIcon4 {
+    width: 19.9px;
+    height: 19px;
+  }
+  .vectorParent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-9xs);
+  }
+  .positiveLifetime258Total {
+    margin: 0;
+    width: 277px;
+    position: relative;
+    font-size: inherit;
+    font-weight: 600;
+    font-family: inherit;
+    display: flex;
+    align-items: center;
+    height: 19px;
+    flex-shrink: 0;
+  }
+  .frameParent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-4xs);
+    text-align: left;
+    color: var(--color-steelblue-200);
+    font-family: var(--font-inter);
+  }
+  .detailedSellerInformation {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+  }
+  .businessName {
+    margin-bottom: 0;
+  }
+  .businessNameBusinessAddress {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    padding-left: var(--padding-lgi);
+  }
+  .businessNameBusinessContainer {
+    margin: 0;
+    width: 147px;
+    position: relative;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+    display: inline-block;
+    height: 34px;
+    flex-shrink: 0;
+  }
+  .blockBPark {
+    margin: 0;
+  }
+  .kreoTechPvtContainer {
+    margin: 0;
+    width: 597px;
+    position: relative;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+    color: var(--color-dimgray);
+    display: inline-block;
+    height: 51px;
+    flex-shrink: 0;
+  }
+  .businessNameBusinessAddressParent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-10xs);
+    text-align: left;
+    font-size: var(--font-size-sm);
+    font-family: var(--font-inter);
+  }
+  .detailedSellerInformationParent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-7xs);
+    font-size: var(--font-size-base);
+  }
+  .kreoTechPvtLtdParent {
+    flex-direction: column;
+    gap: var(--gap-3xl);
+  }
+  .frameWrapper,
+  .image19Parent,
+  .kreoTechPvtLtdParent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frameWrapper {
+    width: 859px;
+    height: 370px;
+    overflow: hidden;
+    flex-shrink: 0;
+    flex-direction: column;
+    padding: var(--padding-4xs) 0;
+    box-sizing: border-box;
+  }
+  .image19Parent {
+    width: 1246px;
+    flex-direction: row;
+    gap: var(--gap-mid);
+    text-align: center;
+    font-size: var(--font-size-sm);
+    color: var(--color-black);
+    font-family: var(--font-audiowide);
+  }
+  

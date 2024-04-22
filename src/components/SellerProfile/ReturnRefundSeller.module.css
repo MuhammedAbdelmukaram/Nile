@@ -1,0 +1,109 @@
+.returnAndRefund {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+  }
+  .returnAndRefundPolicyParent {
+    height: 139px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-3xl);
+  }
+  .frameChild {
+    width: 1px;
+    position: relative;
+    border-right: 1px solid var(--color-dimgray);
+    box-sizing: border-box;
+    height: 140px;
+  }
+  .customerServicePhone86152,
+  .haveAQuestion {
+    width: 888px;
+    position: relative;
+    display: inline-block;
+    height: 17px;
+    flex-shrink: 0;
+  }
+  .haveAQuestion {
+    margin: 0;
+    font-size: var(--font-size-xl);
+    font-weight: 500;
+    font-family: inherit;
+  }
+  .customerServicePhone86152 {
+    font-weight: 300;
+  }
+  .askAQuestion {
+    position: relative;
+    font-size: var(--font-size-3xs);
+    font-family: var(--font-inter);
+    color: var(--color-white);
+    text-align: center;
+  }
+  .askAQuestionWrapper {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-8xs) var(--padding-6xl);
+    background-color: var(--color-deepskyblue);
+    border-radius: var(--br-sm);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .frameGroup {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-8xs);
+  }
+  .shareYourThoughts {
+    margin: 0;
+    width: 888px;
+    position: relative;
+    font-size: inherit;
+    font-weight: 300;
+    font-family: inherit;
+    display: inline-block;
+    height: 17px;
+    flex-shrink: 0;
+  }
+  .frameWrapper,
+  .haveAQuestionForKreoTechParent {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .haveAQuestionForKreoTechParent {
+    align-items: flex-start;
+    gap: var(--gap-4xs);
+  }
+  .frameWrapper {
+    width: 888px;
+    height: 139px;
+    overflow: hidden;
+    flex-shrink: 0;
+    align-items: center;
+    padding: var(--padding-12xs) 0;
+    box-sizing: border-box;
+    font-size: var(--font-size-sm);
+    font-family: var(--font-inter);
+  }
+  .frameParent {
+    width: 1254px;
+    height: 139px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    text-align: left;
+    font-size: var(--font-size-xl);
+    color: var(--color-black);
+    font-family: var(--font-audiowide);
+  }
+  

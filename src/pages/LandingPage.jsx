@@ -1,4 +1,4 @@
-import Navbar from "../sections/Navbar.jsx"; 
+import Navbar from "../sections/Navbar.jsx";
 import Categories from "../sections/LandingPage/Categories.jsx";
 import OfferBanner from "../sections/LandingPage/OfferBanner.jsx";
 import FeaturedProduct from "../sections/LandingPage/FeaturedProduct.jsx";
