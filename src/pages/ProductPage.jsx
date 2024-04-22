@@ -1,6 +1,7 @@
-import Footer from "../sections/Footer.jsx";
+// import Footer from "../sections/Footer.jsx";
 import Navbar from "../sections/Navbar.jsx";
 import Header from "../sections/Header.jsx";
+import Footer from "../sections/Footer.jsx";
 import TopLeft from "../sections/ProductPage/TopLeft";
 import TopMiddle from "../sections/ProductPage/TopMiddle";
 import TopRight from "../sections/ProductPage/TopRight";
@@ -13,6 +14,7 @@ import styles from "./ProductPage.module.css";
 const ProductPage = () => {
     return (
         <div className={styles.productsPage}>
+<Footer />
           <main className={styles.mainContainer}>
           <header className={styles.header}>
           {/* <header className={styles.mainContent}> */}
@@ -38,7 +40,6 @@ const ProductPage = () => {
             <ReviewNFaq />
             <SimilarProducts />
             <PopularProducts />
-          <Footer />
           </main>
         </div>
       );

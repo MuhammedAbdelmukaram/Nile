@@ -1,12 +1,11 @@
-// import React from 'react';
 import Navbar from "../sections/Navbar.jsx"; 
-import styles from "./LandingPage.module.css";
 import Categories from "../sections/LandingPage/Categories.jsx";
 import OfferBanner from "../sections/LandingPage/OfferBanner.jsx";
 import FeaturedProduct from "../sections/LandingPage/FeaturedProduct.jsx";
 import TopPicks from "../sections/LandingPage/TopPicks.jsx";
 import Footer from "../sections/Footer.jsx";
 import ExploreMoreBestSellers from "../sections/LandingPage/ExploreMoreBestSellers.jsx";
+import styles from "./LandingPage.module.css";
 
 const LandingPage = () => {
   return (

@@ -1,0 +1,285 @@
+.filter {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+  }
+  .clearAll {
+    width: 47px;
+    position: relative;
+    font-size: var(--font-size-xs);
+    font-family: var(--font-inter);
+    color: var(--color-steelblue-200);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    flex-shrink: 0;
+  }
+  .filterParent {
+    width: 322px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    text-align: center;
+    font-size: var(--font-size-5xl);
+    color: var(--color-black);
+    font-family: var(--font-audiowide);
+  }
+  .deliveryTime {
+    width: 151px;
+    position: relative;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    height: 20px;
+    flex-shrink: 0;
+  }
+  .vectorIcon {
+    width: 13px;
+    position: relative;
+    height: 6px;
+    object-fit: cover;
+  }
+  .deliveryTimeParent {
+    width: 322px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .rectangleInput {
+    margin: 0;
+    width: 18px;
+    position: relative;
+    border-radius: var(--br-11xs);
+    border: 1px solid var(--color-gray-300);
+    box-sizing: border-box;
+    height: 18px;
+  }
+  .getItBy,
+  .rectangleParent {
+    height: 18px;
+    display: flex;
+    align-items: center;
+  }
+  .getItBy {
+    width: 147px;
+    position: relative;
+    flex-shrink: 0;
+  }
+  .rectangleParent {
+    width: 173px;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: var(--gap-5xs);
+  }
+  .getItIn,
+  .rectangleInput1 {
+    position: absolute;
+    top: 0;
+    height: 18px;
+  }
+  .getItIn {
+    left: 26px;
+    display: flex;
+    align-items: center;
+    width: 147px;
+  }
+  .rectangleInput1 {
+    margin: 0;
+    left: 0;
+    border-radius: var(--br-11xs);
+    border: 1px solid var(--color-gray-300);
+    box-sizing: border-box;
+    width: 18px;
+  }
+  .getItBy1,
+  .getItIn2DaysParent {
+    width: 173px;
+    position: relative;
+    height: 18px;
+  }
+  .getItBy1 {
+    position: absolute;
+    top: 0;
+    left: 26px;
+    display: flex;
+    align-items: center;
+    width: 212px;
+  }
+  .getItBy57DaysStandardParent {
+    width: 238px;
+    position: relative;
+    height: 18px;
+  }
+  .frameContainer,
+  .frameGroup {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frameContainer {
+    width: 322px;
+    gap: var(--gap-8xs);
+    font-size: var(--font-size-3xs);
+  }
+  .frameGroup {
+    gap: var(--gap-5xs);
+  }
+  .vectorIcon2 {
+    width: 10px;
+    position: relative;
+    height: 10px;
+  }
+  .frameParent1,
+  .rectangleGroup,
+  .vectorParent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-9xs);
+  }
+  .frameParent1,
+  .rectangleGroup {
+    width: 322px;
+    justify-content: flex-start;
+    gap: var(--gap-5xs);
+  }
+  .frameParent1 {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--gap-8xs);
+    font-size: var(--font-size-5xs);
+    color: var(--color-dimgray);
+  }
+  .vectorIcon22 {
+    width: 13px;
+    position: relative;
+    height: 6px;
+  }
+  .priceRangeParent {
+    width: 322px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: var(--font-size-xs);
+  }
+  .frameParent3 {
+    width: 322px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-8xs);
+    color: var(--color-black);
+  }
+  .frameChild {
+    border: 1px solid var(--color-silver);
+    outline: 0;
+    font-family: var(--font-inter);
+    font-size: var(--font-size-5xs);
+    background-color: var(--color-white);
+    width: 137.4px;
+    border-radius: var(--br-9xs);
+    box-sizing: border-box;
+    padding: 0 12.199999999999818px;
+    color: var(--color-darkgray-100);
+  }
+  .div,
+  .frameChild,
+  .frameInner,
+  .frameItem {
+    position: relative;
+    height: 28px;
+  }
+  .div {
+    width: 8px;
+    letter-spacing: -0.2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+  .frameInner,
+  .frameItem {
+    border-radius: var(--br-9xs);
+  }
+  .frameItem {
+    border: 1px solid var(--color-silver);
+    outline: 0;
+    font-family: var(--font-inter);
+    font-size: var(--font-size-5xs);
+    background-color: var(--color-white);
+    width: 137.4px;
+    box-sizing: border-box;
+    padding: 0 12.200000000000728px;
+    color: var(--color-darkgray-100);
+  }
+  .frameInner {
+    width: 30px;
+  }
+  .groupParent {
+    width: 322px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-10xs);
+    text-align: center;
+    color: var(--color-dimgray);
+  }
+  .frameParent2,
+  .groupInput {
+    font-size: var(--font-size-5xs);
+  }
+  .frameParent2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-5xs);
+  }
+  .groupInput {
+    border: 1px solid var(--color-silver);
+    outline: 0;
+    font-family: var(--font-inter);
+    background-color: var(--color-white);
+    width: 322px;
+    position: relative;
+    border-radius: var(--br-9xs);
+    box-sizing: border-box;
+    height: 28px;
+    padding: 0 var(--padding-2xs);
+    color: var(--color-dimgray);
+  }
+  .frameParent,
+  .frameParent5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .frameParent5 {
+    width: 322px;
+    align-items: flex-start;
+    gap: var(--gap-8xs);
+    font-size: var(--font-size-5xs);
+    color: var(--color-black);
+  }
+  .frameParent {
+    position: absolute;
+    top: 17px;
+    left: 17px;
+    align-items: center;
+    gap: var(--gap-sm);
+    text-align: left;
+    font-size: var(--font-size-xs);
+    color: var(--color-gray-500);
+    font-family: var(--font-inter);
+  }
+  
