@@ -1,6 +1,6 @@
 import styles from "./Footer.module.css";
 
-const Footer = () => {
+const FooterCategories = () => {
   return (
     <div className={styles.footer}>
       <div className={styles.frameParent}>
@@ -10,7 +10,7 @@ const Footer = () => {
               <img
                 className={styles.photo202403301404223Icon}
                 alt=""
-                src="/photo-20240330-140422-3@2x.png"
+                src="/photo-20240330-140422-31@2x.png"
               />
               <div className={styles.loremIpsumDolor}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -99,7 +99,7 @@ const Footer = () => {
           </div>
         </div>
         <div className={styles.rectangleGroup}>
-          <footer className={styles.groupItem} />
+          <div className={styles.groupItem} />
           <div className={styles.loremIpsumDolor1}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -115,4 +115,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default FooterCategories;

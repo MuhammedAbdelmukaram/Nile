@@ -1,5 +1,5 @@
-import ExploreProducts from "../components/ExploreProducts";
-import BestSeller from "../components/BestSeller";
+import ExploreProducts from "../../components/LandingPage/ExploreProducts";
+import BestSeller from "../../components/LandingPage/BestSeller";
 import styles from "./ExploreMoreBestSellers.module.css";
 
 const ExploreMoreBestSellers = () => {

@@ -1,0 +1,42 @@
+.frameChild {
+    width: 24px;
+    position: relative;
+    height: 26.1px;
+    object-fit: cover;
+  }
+  .offers {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+  }
+  .frameGroup,
+  .frameParent,
+  .groupParent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: var(--gap-4xs);
+  }
+  .frameGroup,
+  .frameParent {
+    align-items: flex-start;
+    gap: var(--gap-6xs);
+    text-align: center;
+    font-size: var(--font-size-xs);
+  }
+  .frameParent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    flex-direction: column;
+    justify-content: center;
+    gap: var(--gap-5xs);
+    text-align: left;
+    font-size: var(--font-size-mini);
+    color: var(--color-black);
+    font-family: var(--font-audiowide);
+  }
+  

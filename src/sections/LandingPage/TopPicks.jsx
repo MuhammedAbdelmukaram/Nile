@@ -1,4 +1,4 @@
-import ProductCard from "../components/ProductCard";
+import ProductCard from "../../components/LandingPage/ProductCard";
 import styles from "./TopPicks.module.css";
 
 const TopPicks = () => {

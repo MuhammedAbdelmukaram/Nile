@@ -1,0 +1,537 @@
+.frequentlyAskedQuestions {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+  }
+  .loremIpsumDolorSitAmetCo {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    padding-left: var(--padding-2xl);
+  }
+  .loremIpsumDolorContainer1 {
+    width: 100%;
+  }
+  .loremIpsumDolorContainer {
+    margin: 0;
+    width: 708px;
+    position: relative;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .groupChild,
+  .h1 {
+    position: absolute;
+  }
+  .groupChild {
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    background-color: var(--color-black);
+    width: 38px;
+    height: 38px;
+  }
+  .h1 {
+    margin: 0;
+    top: 4px;
+    left: 13px;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+  }
+  .ellipseParent {
+    width: 38px;
+    position: relative;
+    height: 38px;
+    text-align: center;
+    font-size: var(--font-size-5xl);
+    color: var(--color-white);
+  }
+  .loremIpsumDolorSitAmetCoParent {
+    height: 38px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-2xl);
+  }
+  .loremIpsumDolor {
+    width: 698px;
+    position: relative;
+    font-size: var(--font-size-2xs);
+    color: var(--color-dimgray);
+    display: flex;
+    align-items: center;
+  }
+  .frameGroup {
+    border-bottom: 1px solid var(--color-silver);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-xl);
+    gap: var(--gap-3xs);
+  }
+  .loremIpsumDolorSitAmetCo1 {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    padding-left: var(--padding-2xl);
+  }
+  .loremIpsumDolorContainer3 {
+    width: 100%;
+  }
+  .loremIpsumDolorContainer2 {
+    margin: 0;
+    width: 708px;
+    position: relative;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .groupItem {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    background-color: var(--color-black);
+    width: 38px;
+    height: 38px;
+  }
+  .button {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    top: 3px;
+    left: 12px;
+    font-size: var(--font-size-5xl);
+    font-family: var(--font-inter);
+    color: var(--color-white);
+    text-align: center;
+    display: inline-block;
+  }
+  .ellipseGroup {
+    width: 38px;
+    position: relative;
+    height: 38px;
+  }
+  .loremIpsumDolorSitAmetCoGroup {
+    height: 38px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-2xl);
+  }
+  .loremIpsumDolor1 {
+    width: 698px;
+    position: relative;
+    font-size: var(--font-size-2xs);
+    color: var(--color-dimgray);
+    display: none;
+    align-items: center;
+  }
+  .frameContainer {
+    border-bottom: 1px solid var(--color-silver);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-xl);
+    gap: var(--gap-3xs);
+  }
+  .loremIpsumDolorSitAmetCo2 {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    padding-left: var(--padding-2xl);
+  }
+  .loremIpsumDolorContainer5 {
+    width: 100%;
+  }
+  .loremIpsumDolorContainer4 {
+    margin: 0;
+    width: 708px;
+    position: relative;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .groupInner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    background-color: var(--color-black);
+    width: 38px;
+    height: 38px;
+  }
+  .button1 {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    top: 3px;
+    left: 12px;
+    font-size: var(--font-size-5xl);
+    font-family: var(--font-inter);
+    color: var(--color-white);
+    text-align: center;
+    display: inline-block;
+  }
+  .ellipseContainer {
+    width: 38px;
+    position: relative;
+    height: 38px;
+  }
+  .loremIpsumDolorSitAmetCoContainer {
+    height: 38px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-2xl);
+  }
+  .loremIpsumDolor2 {
+    width: 698px;
+    position: relative;
+    font-size: var(--font-size-2xs);
+    color: var(--color-dimgray);
+    display: none;
+    align-items: center;
+  }
+  .frameDiv {
+    border-bottom: 1px solid var(--color-silver);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-xl);
+    gap: var(--gap-3xs);
+  }
+  .loremIpsumDolorSitAmetCo3 {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    padding-left: var(--padding-2xl);
+  }
+  .loremIpsumDolorContainer7 {
+    width: 100%;
+  }
+  .loremIpsumDolorContainer6 {
+    margin: 0;
+    width: 708px;
+    position: relative;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .ellipseDiv {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    background-color: var(--color-black);
+    width: 38px;
+    height: 38px;
+  }
+  .button2 {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    top: 3px;
+    left: 12px;
+    font-size: var(--font-size-5xl);
+    font-family: var(--font-inter);
+    color: var(--color-white);
+    text-align: center;
+    display: inline-block;
+  }
+  .groupDiv {
+    width: 38px;
+    position: relative;
+    height: 38px;
+  }
+  .loremIpsumDolorSitAmetCoParent1 {
+    height: 38px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-2xl);
+  }
+  .loremIpsumDolor3 {
+    width: 698px;
+    position: relative;
+    font-size: var(--font-size-2xs);
+    color: var(--color-dimgray);
+    display: none;
+    align-items: center;
+  }
+  .frameParent1 {
+    border-bottom: 1px solid var(--color-silver);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-xl);
+    gap: var(--gap-3xs);
+  }
+  .loremIpsumDolorSitAmetCo4 {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    padding-left: var(--padding-2xl);
+  }
+  .loremIpsumDolorContainer9 {
+    width: 100%;
+  }
+  .loremIpsumDolorContainer8 {
+    margin: 0;
+    width: 708px;
+    position: relative;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .groupChild1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    background-color: var(--color-black);
+    width: 38px;
+    height: 38px;
+  }
+  .button3 {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    top: 3px;
+    left: 12px;
+    font-size: var(--font-size-5xl);
+    font-family: var(--font-inter);
+    color: var(--color-white);
+    text-align: center;
+    display: inline-block;
+  }
+  .ellipseParent1 {
+    width: 38px;
+    position: relative;
+    height: 38px;
+  }
+  .loremIpsumDolorSitAmetCoParent2 {
+    height: 38px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-2xl);
+  }
+  .loremIpsumDolor4 {
+    width: 698px;
+    position: relative;
+    font-size: var(--font-size-2xs);
+    color: var(--color-dimgray);
+    display: none;
+    align-items: center;
+  }
+  .frameParent2 {
+    border-bottom: 1px solid var(--color-silver);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-xl);
+    gap: var(--gap-3xs);
+  }
+  .loremIpsumDolorSitAmetCo5 {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    padding-left: var(--padding-2xl);
+  }
+  .loremIpsumDolorContainer11 {
+    width: 100%;
+  }
+  .loremIpsumDolorContainer10 {
+    margin: 0;
+    width: 708px;
+    position: relative;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .groupChild2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    background-color: var(--color-black);
+    width: 38px;
+    height: 38px;
+  }
+  .button4 {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    top: 3px;
+    left: 12px;
+    font-size: var(--font-size-5xl);
+    font-family: var(--font-inter);
+    color: var(--color-white);
+    text-align: center;
+    display: inline-block;
+  }
+  .ellipseParent2 {
+    width: 38px;
+    position: relative;
+    height: 38px;
+  }
+  .loremIpsumDolorSitAmetCoParent3 {
+    height: 38px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-2xl);
+  }
+  .loremIpsumDolor5 {
+    width: 698px;
+    position: relative;
+    font-size: var(--font-size-2xs);
+    color: var(--color-dimgray);
+    display: none;
+    align-items: center;
+  }
+  .frameParent3 {
+    border-bottom: 1px solid var(--color-silver);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-xl);
+    gap: var(--gap-3xs);
+  }
+  .loremIpsumDolorSitAmetCo6 {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    padding-left: var(--padding-2xl);
+  }
+  .loremIpsumDolorContainer13 {
+    width: 100%;
+  }
+  .loremIpsumDolorContainer12 {
+    margin: 0;
+    width: 708px;
+    position: relative;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .groupChild3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    background-color: var(--color-black);
+    width: 38px;
+    height: 38px;
+  }
+  .button5 {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    top: 3px;
+    left: 12px;
+    font-size: var(--font-size-5xl);
+    font-family: var(--font-inter);
+    color: var(--color-white);
+    text-align: center;
+    display: inline-block;
+  }
+  .ellipseParent3 {
+    width: 38px;
+    position: relative;
+    height: 38px;
+  }
+  .loremIpsumDolorSitAmetCoParent4 {
+    height: 38px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-2xl);
+  }
+  .loremIpsumDolor6 {
+    width: 698px;
+    position: relative;
+    font-size: var(--font-size-2xs);
+    color: var(--color-dimgray);
+    display: none;
+    align-items: center;
+  }
+  .frameParent,
+  .frameParent4,
+  .frequentlyAskedQuestionsParent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frameParent4 {
+    border-bottom: 1px solid var(--color-silver);
+    padding: 0 0 var(--padding-xl);
+    gap: var(--gap-3xs);
+  }
+  .frameParent,
+  .frequentlyAskedQuestionsParent {
+    gap: var(--gap-xl);
+    text-align: left;
+    font-size: var(--font-size-base);
+    font-family: var(--font-inter);
+  }
+  .frequentlyAskedQuestionsParent {
+    gap: var(--gap-7xl);
+    text-align: center;
+    font-size: var(--font-size-17xl);
+    color: var(--color-black);
+    font-family: var(--font-audiowide);
+  }
+  

@@ -1,5 +1,5 @@
 import FeaturedProductBestSellers from "./FeaturedPBS";
-import styles from "../components/BestSeller.module.css";
+import styles from "./BestSeller.module.css";
 
 const BestSeller = () => {
   return (
