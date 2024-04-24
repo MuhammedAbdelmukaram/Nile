@@ -115,7 +115,8 @@
     top: 0;
   }
   .div1 {
-    left: 38px;
+    /* left: 50px; */
+    right:40px;
     font-size: var(--font-size-xl);
     font-family: var(--font-audiowide);
     color: var(--color-seashell);
@@ -124,9 +125,10 @@
   .clipPathGroup {
     height: 100%;
     width: 34.71%;
-    right: 65.29%;
+    /* right: 65.29%; */
+    right: 100px;
     bottom: 0;
-    left: 0;
+    /* left: 0; */
     max-width: 100%;
     overflow: hidden;
     max-height: 100%;
@@ -135,6 +137,7 @@
   .parent {
     width: 87px;
     position: relative;
+  
     height: 26px;
   }
   .frameChild {
@@ -142,6 +145,7 @@
     height: 49px;
   }
   .groupContainer {
+    margin-right: 100px;
     cursor: pointer;
     border: 0;
     padding: var(--padding-10xs) var(--padding-9xs);

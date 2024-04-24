@@ -14,6 +14,7 @@ const ProductsFromSeller = () => {
       <ProductFromSellerCard />
       <ProductFromSellerCard />
       <ProductFromSellerCard />
+      <ProductFromSellerCard />
     </div>
   );
 };

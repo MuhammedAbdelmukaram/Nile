@@ -271,6 +271,7 @@
 .frameParent {
   width: 1254px;
   height: 1093px;
+  height: 1093px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
