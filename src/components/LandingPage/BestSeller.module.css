@@ -37,7 +37,7 @@
     flex-direction: row;
     align-items: flex-start;
     justify-content: flex-start;
-    gap: var(--gap-7xl);
+    gap: var(--gap-xs);
   }
   .bestSeller,
   .bestSellersParent {
@@ -50,7 +50,8 @@
     gap: var(--gap-mini);
   }
   .bestSeller {
-    width: 912px;
+    margin-right:65px;
+    width: 855px;
     border-radius: var(--br-mini);
     background-color: var(--color-white);
     border: 1px solid var(--color-deepskyblue);

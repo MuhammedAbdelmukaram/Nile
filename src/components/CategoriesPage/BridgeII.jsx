@@ -5,9 +5,10 @@ const BridgeIICategories = () => {
     <div className={styles.fearuredProduct}>
       <img className={styles.image5Icon} alt="" src="/image-5@2x.png" />
       <div className={styles.kreoHiveAntiGhostingGamingParent}>
-        <h1
+      <h1
           className={styles.kreoHiveAntiGhosting}
-        >{`Kreo Hive Anti-ghosting Gaming Keyboard | 75% Tenkeyless Wired Mechanical Keyboard with RGB LED Backlight Red Switches & 3 Colour Key Caps | Detachable USB C Cable BP (RGB Backlight, Red Switch)`}</h1>
+        >Kreo Hive Anti-ghosting Gaming Keyboard | <br/>75%  Tenkeyless Wired Mechanical Keyboard <br/> with RGB LED Backlight Red Switches  & 3 <br/> Colour Key Caps | Detachable USB C Cable <br/> (RGB Backlight, Red Switch)
+        </h1>
         <div className={styles.groupParent}>
           <div className={styles.rectangleParent}>
             <div className={styles.groupChild} />

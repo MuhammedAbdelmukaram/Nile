@@ -78,7 +78,7 @@
   }
   .frameContainer {
     flex-direction: row;
-    gap: var(--gap-26xl);
+    /* gap: var(--gap-26xl); */
     text-align: center;
   }
   .subscribeToNewsletter {
@@ -158,7 +158,7 @@
     flex-direction: row;
     align-items: flex-start;
     justify-content: center;
-    gap: var(--gap-65xl);
+    gap: var(--gap-xl);
   }
   .groupItem {
     position: absolute;
@@ -171,7 +171,7 @@
   .loremIpsumDolor1 {
     position: absolute;
     top: 25px;
-    left: calc(50% - 451px);
+    left: 310px;
     display: flex;
     align-items: center;
     justify-content: center;

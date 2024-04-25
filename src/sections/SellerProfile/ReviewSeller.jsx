@@ -4,7 +4,8 @@ import ReviewCardSeller from "../../components/SellerProfile/ReviewCardSeller";
 import styles from "./ReviewSeller.module.css";
 
 const LeftSidebarReviewSeller = () => {
-  return (   <div className={styles.frameWrapper}>
+  return (  
+     <div className={styles.frameWrapper}>
 
     <div className={styles.frameParent}>
       <div className={styles.reviewsWrapper}>

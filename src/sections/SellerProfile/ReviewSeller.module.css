@@ -104,7 +104,7 @@
   }
   
   .frameWrapper {
-    width: 398px;
+    width: 576px;
     overflow: hidden;
     flex-shrink: 0;
     display: flex;

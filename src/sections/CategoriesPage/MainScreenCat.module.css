@@ -1,0 +1,13 @@
+.image23Parent {
+    height: 3507px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-16xl);
+    text-align: center;
+    font-size: var(--font-size-xs);
+    color: var(--color-gray-500);
+    font-family: var(--font-inter);
+  }
+  

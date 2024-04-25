@@ -3,6 +3,7 @@
     position: relative;
     height: 7.7px;
     object-fit: cover;
+    left:17px;
   }
   .sponsored,
   .vectorParent {
@@ -15,6 +16,8 @@
     position: relative;
     justify-content: center;
     flex-shrink: 0;
+    left:17px;
+
   }
   .vectorParent {
     width: 55.6px;
@@ -24,6 +27,7 @@
   }
   .image23Icon {
     width: 356px;
+    left:17px;
     position: relative;
     height: 355.6px;
     object-fit: cover;
@@ -45,6 +49,7 @@
   }
   .frameParent {
     width: 357px;
+    left:70px;
     position: relative;
     height: 1734px;
     overflow: hidden;

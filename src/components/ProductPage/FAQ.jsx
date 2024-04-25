@@ -13,8 +13,8 @@ const FAQProdPage = () => {
               <span className={styles.loremIpsumDolorContainer1}>
                 <ol className={styles.loremIpsumDolorSitAmetCo}>
                   <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore ?
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod <br/> tempor incididunt ut labore ?
                   </li>
                 </ol>
               </span>
@@ -26,11 +26,11 @@ const FAQProdPage = () => {
           </div>
           <div className={styles.loremIpsumDolor}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            eiusmod tempor incididunt ut labore et dolore<br/> magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            aliquip ex ea commodo<br/> consequat. Duis aute irure dolor in
             reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            pariatur. <br/>Excepteur sint occaecat cupidatat non proident, sunt in
             culpa qui officia deserunt mollit anim id est laborum.
           </div>
         </div>
@@ -39,9 +39,9 @@ const FAQProdPage = () => {
             <h2 className={styles.loremIpsumDolorContainer2}>
               <span className={styles.loremIpsumDolorContainer3}>
                 <ol className={styles.loremIpsumDolorSitAmetCo1}>
-                  <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore ?
+                <li>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod <br/> tempor incididunt ut labore ?
                   </li>
                 </ol>
               </span>
@@ -66,9 +66,9 @@ const FAQProdPage = () => {
             <h2 className={styles.loremIpsumDolorContainer4}>
               <span className={styles.loremIpsumDolorContainer5}>
                 <ol className={styles.loremIpsumDolorSitAmetCo2}>
-                  <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore ?
+                <li>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod <br/> tempor incididunt ut labore ?
                   </li>
                 </ol>
               </span>
@@ -93,9 +93,9 @@ const FAQProdPage = () => {
             <h2 className={styles.loremIpsumDolorContainer6}>
               <span className={styles.loremIpsumDolorContainer7}>
                 <ol className={styles.loremIpsumDolorSitAmetCo3}>
-                  <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore ?
+                <li>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod <br/> tempor incididunt ut labore ?
                   </li>
                 </ol>
               </span>
@@ -120,9 +120,9 @@ const FAQProdPage = () => {
             <h2 className={styles.loremIpsumDolorContainer8}>
               <span className={styles.loremIpsumDolorContainer9}>
                 <ol className={styles.loremIpsumDolorSitAmetCo4}>
-                  <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore ?
+                <li>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod <br/> tempor incididunt ut labore ?
                   </li>
                 </ol>
               </span>
@@ -147,9 +147,9 @@ const FAQProdPage = () => {
             <h2 className={styles.loremIpsumDolorContainer10}>
               <span className={styles.loremIpsumDolorContainer11}>
                 <ol className={styles.loremIpsumDolorSitAmetCo5}>
-                  <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore ?
+                <li>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod <br/> tempor incididunt ut labore ?
                   </li>
                 </ol>
               </span>
@@ -174,9 +174,9 @@ const FAQProdPage = () => {
             <h2 className={styles.loremIpsumDolorContainer12}>
               <span className={styles.loremIpsumDolorContainer13}>
                 <ol className={styles.loremIpsumDolorSitAmetCo6}>
-                  <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore ?
+                <li>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod <br/> tempor incididunt ut labore ?
                   </li>
                 </ol>
               </span>

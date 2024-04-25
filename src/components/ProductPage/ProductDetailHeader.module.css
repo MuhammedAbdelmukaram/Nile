@@ -137,4 +137,18 @@
     color: var(--color-gray-500);
     font-family: var(--font-inter);
   }
-  
+  @media screen and (min-width: 1200px) {
+
+    .kreoHiveAntiGhosting {
+      margin: 0;
+      width: 668px;
+      position: relative;
+      font-size: var(--font-size-xl);
+      font-weight: 400;
+      font-family: var(--font-audiowide);
+      display: flex;
+      align-items: center;
+    }
+    
+      }
+      

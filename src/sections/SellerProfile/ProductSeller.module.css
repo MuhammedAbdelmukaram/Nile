@@ -21,6 +21,7 @@
 }
 .viewAllWrapper {
   width: 167px;
+  margin-right:210px;
   border-radius: var(--br-sm);
   background-color: var(--color-deepskyblue);
   height: 33px;

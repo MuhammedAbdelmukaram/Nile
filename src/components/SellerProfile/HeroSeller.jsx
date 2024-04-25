@@ -9,11 +9,12 @@ const SellerHeader = () => {
           <h1 className={styles.kreoTechPvt}>Kreo Tech PVT LTD</h1>
           <h3 className={styles.loremIpsumDolor}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            eiusmod tempor incididunt ut <br/>labore et
+             dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco<br/> laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in 
+            reprehenderit in<br/> voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat<br/> non proident, sunt in
             culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum
           </h3>
           <div className={styles.frameParent}>
@@ -43,7 +44,7 @@ const SellerHeader = () => {
                 <p className={styles.blockBPark}>kreo tech pvt ltd</p>
                 <p className={styles.blockBPark}>
                   2305, Block B, Park Road Building, 26 Deng Leung Road, Nanhai
-                  Avenue, Nanshan Street
+                  Avenue,<br/> Nanshan Street
                 </p>
                 <p className={styles.blockBPark}>
                   Shenzhen, Nanshan District, Guangdong, 518000 CN

@@ -176,7 +176,7 @@
   .groupParent {
     position: absolute;
     top: 14px;
-    left: 1334px;
+    left: 1180px;
     width: 231px;
     display: flex;
     flex-direction: row;
@@ -197,12 +197,12 @@
   .subHeaderChild {
     position: absolute;
     top: 0;
-    left: calc(50% - 822.5px);
+    left:90px;
     border-radius: var(--br-21xl);
     background-color: var(--color-black);
     border: 1px solid var(--color-black);
     box-sizing: border-box;
-    width: 1645px;
+    width: 1470px;
     height: 40px;
   }
   .category,
@@ -259,6 +259,7 @@
   }
   .frameParent {
     position: absolute;
+
     top: 11px;
     left: 28px;
     display: flex;
@@ -276,7 +277,7 @@
   }
   .header {
     margin: 0;
-    width: 1665px;
+    width: 1490px;
     position: relative;
     border-radius: var(--br-5xl);
     background-color: var(--color-white);

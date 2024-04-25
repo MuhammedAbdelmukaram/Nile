@@ -13,11 +13,12 @@
     font-size: var(--font-size-17xl);
   }
   .frameParent {
+    width:1540px;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     justify-content: flex-start;
-    gap: var(--gap-2xs);
+    gap: var(--gap-11xs);
     text-align: left;
     font-size: var(--font-size-xl);
     color: var(--color-black);

@@ -16,9 +16,9 @@ const UpperMainSection = () => {
       <ProductsCategories propLeft="unset" propTop="unset" />
       <ProductsCategories propLeft="unset" propTop="unset" />
       <ProductsCategories propLeft="unset" propTop="unset" />
-      <ProductsCategories propLeft="unset" propTop="unset" />
-      <ProductsCategories propLeft="unset" propTop="unset" />
-      <ProductsCategories propLeft="unset" propTop="unset" />
+      {/* <ProductsCategories propLeft="unset" propTop="unset" /> */}
+      {/* <ProductsCategories propLeft="unset" propTop="unset" /> */}
+      {/* <ProductsCategories propLeft="unset" propTop="unset" /> */}
     </div>
   );
 };

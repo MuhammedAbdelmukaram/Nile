@@ -279,7 +279,7 @@
 .frameContainer {
   position: absolute;
   top: 0;
-  left: 9.5px;
+  /* left: 9.5px; */
   height: 3251px;
   gap: var(--gap-2xl);
 }
@@ -289,6 +289,7 @@
   height: 2761px;
   overflow: hidden;
   flex-shrink: 0;
+  left:-80px;
 }
 .frameGroup,
 .mainContainer {

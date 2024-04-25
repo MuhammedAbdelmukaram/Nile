@@ -28,6 +28,7 @@ const LandingPage = () => {
           </div>
           <img className={styles.navIcon} alt="" src="/nav.svg" />
         </section>
+
         <section className={styles.categories}>
           <div className={styles.title}>
             <img className={styles.titleChild} alt="" src="/group-17.svg" />

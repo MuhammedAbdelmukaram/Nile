@@ -35,11 +35,12 @@
   }
   .rectangleParent {
     width: 124px;
+    /* margin-right:40px; */
     position: relative;
     height: 39px;
   }
   .topPicksJustForYouParent {
-    width: 1555px;
+    width: 1470px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -47,11 +48,13 @@
   }
   .productTile1Parent,
   .topPicks {
+    /* width:1200px; */
+    /* margin-left:39px; */
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: var(--gap-16xl);
+    gap: var(--gap-xl);
     font-size: var(--font-size-3xs);
     font-family: var(--font-inter);
   }

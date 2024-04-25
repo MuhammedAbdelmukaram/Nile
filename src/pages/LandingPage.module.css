@@ -38,9 +38,9 @@
   .featuredBanner {
     position: absolute;
     top: 0;
-    left: 0;
+    left: 90px;
     border-radius: var(--br-5xl);
-    width: 1665px;
+    width: 1480px;
     height: 300px;
     overflow: hidden;
   }

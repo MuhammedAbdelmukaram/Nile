@@ -15,9 +15,9 @@ const ProductPage = () => {
     <div className={styles.productsPage}>
       <Footer />
       <main className={styles.mainContainer}>
-        <header className={styles.header}>
+        {/* <header className={styles.header}> */}
           <Navbar />
-        </header>
+        {/* </header> */}
         <div className={styles.maskGroupParent}>
           <Header />
           <div

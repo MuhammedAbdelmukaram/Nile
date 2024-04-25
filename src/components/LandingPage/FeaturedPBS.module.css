@@ -7,7 +7,7 @@
   }
   .kreoHiveAntiGhosting {
     margin: 0;
-    width: 578px;
+    width: 500px;
     position: relative;
     font-size: var(--font-size-5xl);
     font-weight: 400;
@@ -200,6 +200,7 @@
     width: 60px;
     position: relative;
     height: 60px;
+    margin-right:60px;
   }
   .frameParent {
     display: flex;

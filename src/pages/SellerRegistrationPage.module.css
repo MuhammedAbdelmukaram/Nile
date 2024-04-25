@@ -312,7 +312,7 @@
   .mainContainer {
     position: absolute;
     top: 35px;
-    left: calc(50% - 832.5px);
+    left: calc(52% - 832.5px);
     height: 316px;
     flex-direction: column;
     justify-content: flex-start;

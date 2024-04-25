@@ -31,3 +31,13 @@
   justify-content: center;
   gap: var(--gap-3xs);
 }
+
+@media screen and (min-width: 1200px) {
+
+  .image18Icon {
+    width: 410px;
+    height: 410px;
+  }
+  
+    }
+    
