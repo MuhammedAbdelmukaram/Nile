@@ -1,0 +1,49 @@
+.header {
+	padding-top: 0.94rem;
+}
+
+.logo {
+	width: 3.6875rem;
+	object-fit: cover;
+}
+
+.logoContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 3.8rem;
+	height: 2.5rem;
+	flex-shrink: 0;
+	overflow: hidden;
+}
+
+.actionsRibbon {
+	background: #2d2d2d;
+	height: 3.125rem;
+	margin-top: 0.63rem;
+}
+
+.actionsRibbon ul {
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 1.25rem;
+}
+
+.actionsRibbon li {
+	color: #fff;
+	font-family: 'Outfit', open-sans;
+	font-size: 0.9375rem;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	white-space: nowrap;
+	cursor: pointer;
+	transition: all 0.3s;
+}
+
+.actionsRibbon li:hover {
+	opacity: 0.8;
+}
