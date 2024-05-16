@@ -41,7 +41,7 @@ const Header = () => {
 				<div className="flex flex-row justify-end items-center gap-5">
 					<CartIcon />
 					<UserIcon />
-					<Button onClick={() => handleWalletClick()}>
+					<Button onClick={handleWalletClick}>
 						<WalletIcon /> Connect Wallet
 					</Button>
 				</div>

@@ -10,4 +10,9 @@
 	font-style: normal;
 	font-weight: 400;
 	line-height: normal;
+	transform: all 0.3s;
+}
+
+.input:focus {
+	outline: solid 1px #8d868680;
 }
