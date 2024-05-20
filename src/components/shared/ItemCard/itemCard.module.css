@@ -1,0 +1,18 @@
+.card {
+	background-color: #ededed;
+}
+
+.favoritesContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 1.875rem;
+	height: 1.875rem;
+	background: #d9d9d9;
+	border-radius: 100%;
+	transition: all 0.3s;
+}
+
+.favoritesContainer:hover {
+	opacity: 0.8;
+}

@@ -16,7 +16,7 @@ const Footer = () => {
 	};
 
 	return (
-		<footer className="fixed inset-x-0 bottom-0 flex flex-col justify-center items-center pb-6 md:flex-row md:h-48 md:justify-between md:gap-2">
+		<footer className="flex flex-col justify-center items-center pb-6 md:flex-row md:h-48 md:justify-between md:gap-2">
 			<div className="md:flex md:flex-col md:justify-between md:max-w-[25rem] md:w-full">
 				<div className="w-full flex justify-start">
 					<div className={styles.logoContainer}>
