@@ -16,8 +16,8 @@ const Footer = () => {
 	};
 
 	return (
-		<footer className="fixed inset-x-0 bottom-0 flex flex-col justify-center items-center pb-6 md:flex-row md:h-48 md:justify-between md:h-fit md:gap-2">
-			<div className="md:flex md:flex-col md:justify-between md:w-1/2 md:h-full">
+		<footer className="fixed inset-x-0 bottom-0 flex flex-col justify-center items-center pb-6 md:flex-row md:h-48 md:justify-between md:gap-2">
+			<div className="md:flex md:flex-col md:justify-between md:max-w-[25rem] md:w-full">
 				<div className="w-full flex justify-start">
 					<div className={styles.logoContainer}>
 						<img
@@ -52,9 +52,12 @@ const Footer = () => {
 					</p>
 				</div>
 			</div>
-			<div className="md:h-full md:flex md:flex-col md:justify-between md:items-end">
-				<div className="hidden md:block md:w-full">{renderSubscribe()}</div>
-				<div className={`${styles.copyRight}`}>
+			<div className="md:relative md:w-full md:max-w-[25rem] md:h-full md:pt-7">
+				<div className="hidden md:block md:w-full md:absolute md:top-0 md:right-0">
+					{renderSubscribe()}
+				</div>
+				<div
+					className={`${styles.copyRight}  md:absolute md:bottom-0 md:right-0`}>
 					<p>© 2024 Nile. All rights reserved.</p>
 				</div>
 			</div>
