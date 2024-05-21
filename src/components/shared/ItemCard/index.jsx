@@ -1,9 +1,10 @@
+// Components
 import StarRating from '../StarRating';
-
+// Icons
 import HeartIcon from '../../../assets/icons/HeartIcon';
-
-import styles from './itemCard.module.css';
 import SolanaIcon from '../../../assets/icons/SolanaIcon';
+// Styles
+import styles from './itemCard.module.css';
 
 const ItemCard = () => {
 	return (
