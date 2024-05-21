@@ -16,3 +16,33 @@
 .favoritesContainer:hover {
 	opacity: 0.8;
 }
+
+.itemPrice {
+	color: #000;
+	font-family: Poppins, sans-serif;
+	font-size: 1.5rem;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+}
+
+.addToCart {
+	font-family: Poppins, sans-serif;
+	font-size: 0.8125rem;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	padding: 0.62rem 0;
+	color: white;
+	background: #2d2d2d;
+	transition: all 0.3s;
+}
+
+.addToCart:hover {
+	opacity: 0.8;
+}

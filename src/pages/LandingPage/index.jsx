@@ -4,6 +4,7 @@ import Carousel from '../../components/LandingPage/Carousel';
 import DiscountBanner from '../../components/LandingPage/DiscountBanner';
 import FeaturedItem from '../../components/LandingPage/FeaturedItem';
 import ItemCard from '../../components/shared/ItemCard';
+import FeaturedStore from '../../components/LandingPage/FeaturedStore';
 
 const LandingPage = () => {
 	const carouselImages = [
@@ -47,18 +48,62 @@ const LandingPage = () => {
 			<div>
 				<DiscountBanner />
 			</div>
-			<div className="w-full flex justify-center flex-col px-[1.63rem]">
-				<FeaturedItem product={tempItem} />
-				<h1 className="mt-10 w-full flex justify-center items-center">
-					Check out our Featured stores
-				</h1>
+			<div className="w-full flex justify-center">
+				<div className="w-full flex justify-center flex-col px-[1.63rem] max-w-[1500px]">
+					<FeaturedItem product={tempItem} />
+					<h1 className="mt-10 w-full flex justify-center items-center">
+						Check out our Featured stores
+					</h1>
 
-				<div>Kartice one</div>
+					<div className="flex flex-row flex-wrap justify-center gap-[0.63rem]">
+						<div className="w-full sm:basis-full">
+							<FeaturedStore
+								variant="purple"
+								logo={'/images/defuel-logo.png'}
+								products={'/images/defuel-products.png'}
+							/>
+						</div>
+						<div className="w-full md:basis-1/2-gap">
+							<FeaturedStore
+								variant="blue"
+								logo={'/images/defuel-logo.png'}
+								products={'/images/defuel-products.png'}
+							/>
+						</div>
+						<div className="w-full md:basis-1/2-gap">
+							<FeaturedStore
+								variant="yellow"
+								logo={'/images/defuel-logo.png'}
+								products={'/images/defuel-products.png'}
+							/>
+						</div>
+					</div>
 
-				<h1 className="mt-10 w-full flex justify-center items-center">
-					From DeFuel Store
-				</h1>
-				<ItemCard />
+					<h1 className="my-10 w-full flex justify-center items-center">
+						From DeFuel Store
+					</h1>
+					<div className="flex flex-wrap justify-center gap-[1.06rem]">
+						{Array.from({ length: 8 }, (_, index) => (
+							<ItemCard key={index} />
+						))}
+					</div>
+					<h1 className="my-10 w-full flex justify-center items-center">
+						From DeByte Store
+					</h1>
+					<div className="flex flex-wrap justify-center gap-[1.06rem]">
+						{Array.from({ length: 8 }, (_, index) => (
+							<ItemCard key={index} />
+						))}
+					</div>
+					<h1 className="my-10 w-full flex justify-center items-center">
+						From DeStore Store
+					</h1>
+					<div className="flex flex-wrap justify-center gap-[1.06rem]">
+						{Array.from({ length: 8 }, (_, index) => (
+							<ItemCard key={index} />
+						))}
+					</div>
+				</div>
 			</div>
 			<Footer />
 		</div>

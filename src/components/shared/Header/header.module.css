@@ -47,3 +47,7 @@
 .actionsRibbon li:hover {
 	opacity: 0.8;
 }
+
+.solanaIcon {
+	@apply hidden sm:block;
+}
