@@ -5,6 +5,7 @@ import InputField from '../../components/shared/InputField';
 import StarRating from '../../components/shared/StarRating';
 import Button from '../../components/shared/Button';
 import ItemCard from '../../components/shared/ItemCard';
+import ImageViewer from '../../components/ProductPage/ImageViewer';
 // Icons
 import CartIcon from '../../assets/icons/CartIcon';
 import BagIcon from '../../assets/icons/BagIcon';
@@ -19,7 +20,9 @@ const ProductPage = () => {
 				<StarRating rating={4.5} variant="small" />
 			</div>
 			<div>Item title</div>
-			<div>Image viewer</div>
+			<div>
+				<ImageViewer />
+			</div>
 			<div>Color picker</div>
 			<div>Size picker</div>
 			<div>
