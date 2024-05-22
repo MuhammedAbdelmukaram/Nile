@@ -10,11 +10,11 @@ import FeaturedStore from '../../components/LandingPage/FeaturedStore';
 const LandingPage = () => {
 	const carouselImages = [
 		'/images/carousel-placeholder.png',
+		'/images/defuel-banner.png',
 		'/images/carousel-placeholder.png',
+		'/images/defuel-banner.png',
 		'/images/carousel-placeholder.png',
-		'/images/carousel-placeholder.png',
-		'/images/carousel-placeholder.png',
-		'/images/carousel-placeholder.png',
+		'/images/defuel-banner.png',
 		'/images/carousel-placeholder.png',
 	];
 

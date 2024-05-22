@@ -1,0 +1,18 @@
+.container {
+	border-bottom: solid 2px #999;
+}
+
+.searchInput {
+	color: #999;
+	font-family: Poppins, sans-serif;
+	font-size: 0.8125rem;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	width: 100%;
+}
+
+.searchInput:focus {
+	outline: none;
+	color: black;
+}

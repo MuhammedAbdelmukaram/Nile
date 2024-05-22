@@ -3,6 +3,9 @@ export default {
 	content: ['./index.html', './src/**/*.{js,jsx}'],
 	theme: {
 		extend: {
+			screens: {
+				lg: '852px',
+			},
 			fontFamily: {
 				poppins: ['Poppins', 'sans-serif'],
 				inter: ['Inter', 'sans-serif'],

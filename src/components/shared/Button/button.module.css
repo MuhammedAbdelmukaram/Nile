@@ -38,3 +38,8 @@
 	border-radius: 0.9375rem;
 	border: 1px solid #2d2d2d;
 }
+.secondaryNoCurve {
+	background: transparent;
+	color: #2d2d2d;
+	border: 1px solid #2d2d2d;
+}
