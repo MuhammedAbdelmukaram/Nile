@@ -9,6 +9,8 @@ const Button = ({ onClick, children, variant = 'primary' }) => {
 					? styles.curved
 					: variant === 'secondaryNoCurve'
 					? styles.secondaryNoCurve
+					: variant === 'orange'
+					? styles.orange
 					: styles.secondary
 			}`}
 			onClick={onClick}>
