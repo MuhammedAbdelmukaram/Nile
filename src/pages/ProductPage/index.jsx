@@ -12,6 +12,7 @@ import CartIcon from '../../assets/icons/CartIcon';
 import BagIcon from '../../assets/icons/BagIcon';
 import UpArrow from '../../assets/icons/UpArrow';
 import ProgressBar from '../../components/ProductPage/ProgressBar';
+import SolanaIcon from '../../assets/icons/SolanaIcon';
 // Styles
 import styles from './productPage.module.css';
 
@@ -25,7 +26,7 @@ const ProductPage = () => {
 		{ name: '2 star', percentage: 5 },
 		{ name: '1 star', percentage: 2 },
 	];
-	const itemDescription = [
+	const itemDesc = [
 		'True to Size: Made with standard US size, this mens boots reduce the likelihood of discomfort and blisters.',
 		'All-day Support: Comfortable memory foam insole of these stylish mens ankle boots provides your feet with support and cushioning.',
 		'Effortless Dressing: Easy dressing with a loop and strong zipper, preventing folds and stress.',
@@ -33,16 +34,16 @@ const ProductPage = () => {
 		'Wardrobe-Essential: Mens casual boots perfect for working, business, walking or daily wear, also go well with jeans, dressy or casual pants.',
 	];
 
-	const renderPickers = () => {
+	const renderPickers = (gap) => {
 		return (
-			<div className="flex flex-col items-start px-8">
+			<div className={`flex flex-col items-start gap-${gap}`}>
 				<div className="flex flex-col ">
 					<p className="mb-[0.56rem]">
 						Colour: <span>green</span>
 					</p>
 					<DetailPicker type="color" values={colors} />
 				</div>
-				<div className="flex flex-col mt-5">
+				<div className="flex flex-col">
 					<p className="mb-[0.56rem]">Size:</p>
 					<DetailPicker type="text" values={sizes} />
 				</div>
@@ -61,7 +62,7 @@ const ProductPage = () => {
 
 	const renderButtons = () => {
 		return (
-			<div className="flex flex-row justify-center items-center gap-5 h-10 mt-[1.37rem]">
+			<div className="flex flex-row justify-center items-center gap-5 h-10">
 				<Button variant="curved">
 					<div className="w-[9rem] flex justify-center items-center gap-2 py-[0.62rem]">
 						<CartIcon />
@@ -100,7 +101,7 @@ const ProductPage = () => {
 					className={`${styles.text} flex justify-start items-start flex-col min-w-[23.675rem] w-full mt-5`}>
 					<p className={`font-semibold`}>About this Item</p>
 					<ul>
-						{itemDescription.map((description, index) => (
+						{itemDesc.map((description, index) => (
 							<li key={index}>{description}</li>
 						))}
 					</ul>
@@ -113,9 +114,9 @@ const ProductPage = () => {
 			<Header />
 			<div className="w-full flex justify-center">
 				<div className="w-full flex justify-center flex-col px-[1.63rem] max-w-[1500px]">
-					<div className="md:flex md:flex-row-reverse md:justify-center md:items-center md:mt-10">
-						<div className="px-6 mt-7">
-							<div className="flex flex-row justify-between items-center md:hidden">
+					<div className="lg:flex lg:flex-row-reverse lg:justify-start lg:items-start lg:shrink h-full lg:mt-10">
+						<div className="mt-7 lg:mt-0">
+							<div className="flex flex-row justify-between items-center lg:hidden">
 								<h3>Visit official store</h3>
 								{renderRating('small')}
 							</div>
@@ -124,34 +125,42 @@ const ProductPage = () => {
 									Jousen Men Chelsea Boots Suede Boots for Men Casual Dress
 									Boots Mens Chukka Ankle Boots
 								</h1>
-								<div className="hidden md:flex flex-row justify-start items-center gap-2">
+								<div className="hidden lg:flex flex-row justify-start items-center gap-2">
 									{renderRating('normal')} <p>Search this page</p>
 								</div>
-								<hr className="border-[#999] border mt-[0.69rem] hidden md:block" />
+								<hr className="border-[#999] border mt-[0.69rem] hidden lg:block" />
+								<div className="hidden lg:flex flex-row justify-start items-center mt-5 gap-[1.87rem]">
+									<div className="flex flex-row justify-center items-center gap-2">
+										<SolanaIcon />
+										<p className={styles.price}>0.05</p>
+									</div>
+									{renderButtons()}
+								</div>
 							</div>
-							<div className="hidden md:block">{renderItemInfo()}</div>
+							<div className="hidden lg:block mt-5">{renderPickers(2)}</div>
+							<div className="hidden lg:block mt-5">{renderItemInfo()}</div>
 						</div>
-						<div className="mt-[0.62rem] mb-[0.81rem]">
+						<div className="mt-[0.62rem] mb-[0.81rem] flex justify-center items-center lg:justify-start lg:items-start lg:h-full">
 							<ImageViewer />
 						</div>
 					</div>
-					<div className="md:hidden">{renderPickers()}</div>
-					<div className="md:hidden mt-[1.37rem]">{renderButtons()}</div>
-					<div className="md:hidden px-6 mt-[1.87rem]">{renderItemInfo()}</div>
-					<hr className="border-[#999] border mt-10 mb-5" />
+					<div className="lg:hidden">{renderPickers(5)}</div>
+					<div className="lg:hidden mt-[1.37rem]">{renderButtons()}</div>
+					<div className="lg:hidden mt-[1.87rem]">{renderItemInfo()}</div>
+					<hr className="border-[#999] border mt-10 mb-5 w-screen lg:w-full -mx-[1.63rem] lg:mx-0" />
 					<div
-						className={`${styles.text} flex justify-start items-start flex-col px-6 min-w-[23.675rem] w-full mt-5`}>
+						className={`${styles.text} flex justify-start items-start flex-col min-w-[23.675rem] w-full mt-5`}>
 						<h4 className="mb-[0.62rem]">Looking for something?</h4>
 						<div className="w-full max-w-[28.5rem]">
 							<InputField placeholder="Search in Q&A" />
 						</div>
 					</div>
-					<hr className="border-[#999] border my-5" />
+					<hr className="border-[#999] border my-5  w-screen lg:w-full -mx-[1.63rem] lg:mx-0" />
 
 					<div
-						className={`${styles.brandInfo} flex justify-start items-start flex-col px-6 min-w-[23.675rem] w-full border-t-0 gap-y-[0.31rem]`}>
+						className={`${styles.brandInfo} flex justify-start items-start flex-col min-w-[23.675rem] w-full border-t-0 gap-y-[0.31rem]`}>
 						<h4>Brand: Apple</h4>
-						<div className="flex flex-col md:flex-row md:justify-between md:items-center md:w-full">
+						<div className="flex flex-col lg:flex-row lg:justify-start lg:items-center lg:w-full gap-x-12">
 							<div>
 								<h5>4.5 Store rating</h5>
 								<p>15k+ customers rate products from this brand highly</p>
@@ -166,10 +175,10 @@ const ProductPage = () => {
 							</div>
 						</div>
 					</div>
-					<hr className="border-[#999] border my-5" />
+					<hr className="border-[#999] border my-5 w-screen lg:w-full -mx-[1.63rem] lg:mx-0" />
 
 					<div
-						className={`${styles.text} flex flex-col md:flex-row justify-start items-start px-6 min-w-[23.675rem] w-full mt-5`}>
+						className={`${styles.text} flex flex-col lg:flex-row justify-start items-start min-w-[23.675rem] w-full mt-5`}>
 						<div className="flex flex-col justify-start items-start mr-16">
 							<h2>Customer Reviews</h2>
 							<div className="my-[0.62rem]">{renderRating('normal')}</div>
@@ -188,7 +197,7 @@ const ProductPage = () => {
 								))}
 							</div>
 						</div>
-						<div className="flex flex-col justify-start items-start md:max-w-[25.5rem] ">
+						<div className="flex flex-col justify-start items-start lg:max-w-[25.5rem] ">
 							<div
 								className={`${styles.text} flex justify-start items-start flex-col w-full mt-5`}>
 								<p className="font-medium">Customers say</p>
@@ -204,7 +213,9 @@ const ProductPage = () => {
 									<InputField placeholder="Write a review" />
 								</div>
 							</div>
-							<a className="mt-5">View all reviews</a>
+							<a className="mt-5 cursor-pointer hover:underline hover:opacity-80 transition">
+								View all reviews
+							</a>
 						</div>
 					</div>
 
@@ -217,7 +228,11 @@ const ProductPage = () => {
 						</div>
 					</div>
 					<div className="flex justify-center items-center mt-10">
-						<Button variant="secondaryNoCurve">
+						<Button
+							variant="secondaryNoCurve"
+							onClick={() => {
+								window.scrollTo(0, 0);
+							}}>
 							<UpArrow /> Back to top
 						</Button>
 					</div>

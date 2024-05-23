@@ -28,7 +28,11 @@ const StorePage = () => {
 				</div>
 
 				<div className="flex flex-row justify-center items-center gap-[1.06rem] w-full mt-10">
-					<Button variant="secondaryNoCurve">
+					<Button
+						variant="secondaryNoCurve"
+						onClick={() => {
+							window.scrollTo(0, 0);
+						}}>
 						<UpArrow /> Back to the top
 					</Button>
 					<Button>
