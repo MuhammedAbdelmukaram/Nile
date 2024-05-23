@@ -1,0 +1,80 @@
+.text p {
+	color: #2d2d2d;
+	font-family: Poppins, sans-serif;
+	font-size: 0.9375rem;
+	font-style: normal;
+	line-height: normal;
+}
+
+.text ul {
+	list-style-type: disc;
+}
+
+.text li {
+	display: list-item;
+	color: #2d2d2d;
+	font-family: Poppins, sans-serif;
+	font-size: 0.9375rem;
+	font-style: normal;
+	line-height: normal;
+}
+
+.text h4 {
+	color: #2d2d2d;
+	font-family: Poppins, sans-serif;
+	font-size: 1.0625rem;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+}
+
+.textBoxContainer {
+	padding: 1.25rem 1.5rem;
+	border-bottom: #929191 solid 2px;
+	border-top: #929191 solid 2px;
+}
+
+.brandInfo h4 {
+	color: #2d2d2d;
+	font-family: Poppins, sans-serif;
+	font-size: 1.0625rem;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+}
+
+.brandInfo p {
+	color: #2d2d2d;
+	font-family: Poppins, sans-serif;
+	font-size: 0.8125rem;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.brandInfo h5 {
+	color: #2d2d2d;
+	font-family: Poppins, sans-serif;
+	font-size: 0.8125rem;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+}
+
+.text a {
+	color: #3679fa;
+	font-family: Poppins, sans-serif;
+	font-size: 0.9375rem;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+}
+
+.rating {
+	color: #ed7e19 !important;
+	font-family: Poppins, sans-serif;
+	font-size: 0.8125rem;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+}
