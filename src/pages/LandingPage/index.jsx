@@ -18,7 +18,8 @@ const LandingPage = () => {
 		'/images/carousel-placeholder.png',
 	];
 
-	const tempItem = {
+	const laptop = {
+		id: 0,
 		productName:
 			'Razer Blade 18 (2024) Gaming Laptop: NVIDIA GeForce RTX 4070 - Intel Core i9\\14900HX 14th Gen CPU - 18” QHD+ 300 Hz Mini LED Display',
 		description: '',
@@ -38,6 +39,27 @@ const LandingPage = () => {
 		tags: [],
 	};
 
+	const crimeEnergy = {
+		id: 0,
+		productName: 'CRIME 500 ml Hydration drink GREENABLE fresh green apple',
+		description: '',
+		images: ['/images/ExampleItem.png'],
+		brand: 'DeFuel',
+		flavour: 'Crime energy',
+		size: '500ml',
+		price: 0.05,
+		discount: [],
+		category: 'Food',
+		subcategory: 'Drink',
+		ratings: 3.5,
+		reviews: [],
+		supplierShop: 'DeFuel',
+		availability: true,
+		tags: [],
+	};
+
+	const arr = new Array(8).fill(crimeEnergy);
+
 	return (
 		<div className="w-[100vw]">
 			<Header />
@@ -51,7 +73,7 @@ const LandingPage = () => {
 			</div>
 			<div className="w-full flex justify-center">
 				<div className="w-full flex justify-center flex-col px-[1.63rem] max-w-[1500px]">
-					<FeaturedItem product={tempItem} />
+					<FeaturedItem product={laptop} />
 					<h1 className="mt-10 w-full flex justify-center items-center">
 						Check out our Featured stores
 					</h1>
@@ -84,24 +106,42 @@ const LandingPage = () => {
 						From DeFuel Store
 					</h1>
 					<div className="flex flex-wrap justify-center gap-[1.06rem]">
-						{Array.from({ length: 8 }, (_, index) => (
-							<ItemCard key={index} />
+						{arr.map((item, index) => (
+							<ItemCard
+								key={index}
+								id={item.id}
+								name={item.productName}
+								price={item.price}
+								rating={item.ratings}
+							/>
 						))}
 					</div>
 					<h1 className="my-10 w-full flex justify-center items-center">
 						From DeByte Store
 					</h1>
 					<div className="flex flex-wrap justify-center gap-[1.06rem]">
-						{Array.from({ length: 8 }, (_, index) => (
-							<ItemCard key={index} />
+						{arr.map((item, index) => (
+							<ItemCard
+								key={index}
+								id={item.id}
+								name={item.productName}
+								price={item.price}
+								rating={item.ratings}
+							/>
 						))}
 					</div>
 					<h1 className="my-10 w-full flex justify-center items-center">
 						From DeStore Store
 					</h1>
 					<div className="flex flex-wrap justify-center gap-[1.06rem]">
-						{Array.from({ length: 8 }, (_, index) => (
-							<ItemCard key={index} />
+						{arr.map((item, index) => (
+							<ItemCard
+								key={index}
+								id={item.id}
+								name={item.productName}
+								price={item.price}
+								rating={item.ratings}
+							/>
 						))}
 					</div>
 				</div>

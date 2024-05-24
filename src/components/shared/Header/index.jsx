@@ -1,3 +1,5 @@
+// Libs
+import { useNavigate } from 'react-router-dom';
 //Components
 import Button from '../Button';
 import InputField from '../InputField/index.jsx';
@@ -11,6 +13,7 @@ import SolanaIcon from '../../../assets/icons/SolanaIcon.jsx';
 import styles from './header.module.css';
 
 const Header = () => {
+	const navigate = useNavigate();
 	const actionsList = ['Todays deals', 'Customer Service', 'Registry'];
 
 	const handleWalletClick = () => {
@@ -30,13 +33,13 @@ const Header = () => {
 	return (
 		<header className={styles.header}>
 			<div className="flex justify-between items-center px-6">
-				<div className={styles.logoContainer}>
+				<button className={styles.logoContainer} onClick={() => navigate('/')}>
 					<img
 						src="/images/NileLogo.jpeg"
 						alt="Nile Logo"
 						className={styles.logo}
 					/>
-				</div>
+				</button>
 				<div className="hidden sm:block">{renderSearch()}</div>
 				<div className="flex flex-row justify-end items-center gap-5">
 					<CartIcon />

@@ -8,10 +8,32 @@ import Nav from '../../components/StorePage/Nav';
 import UpArrow from '../../assets/icons/UpArrow';
 import ShareIcon from '../../assets/icons/ShareIcon';
 const StorePage = () => {
+	const crimeEnergy = {
+		id: 0,
+		productName: 'CRIME 500 ml Hydration drink GREENABLE fresh green apple',
+		description: '',
+		images: ['/images/ExampleItem.png'],
+		brand: 'DeFuel',
+		flavour: 'Crime energy',
+		size: '500ml',
+		price: 0.05,
+		discount: [],
+		category: 'Food',
+		subcategory: 'Drink',
+		ratings: 3.5,
+		reviews: [],
+		supplierShop: 'DeFuel',
+		availability: true,
+		tags: [],
+	};
+
+	const arr = new Array(12).fill(crimeEnergy);
+
 	return (
 		<div>
 			<Header />
-			<div className="w-full flex flex-col justify-center items-center">
+			<Nav />
+			<div className="w-full flex flex-col justify-center items-center mt-5">
 				<div className="max-w-[1500px] min-h-[4.28175rem] w-full">
 					<img
 						src="/images/defuel-banner.png"
@@ -19,11 +41,15 @@ const StorePage = () => {
 						className="w-full h-full min-h-[4.28175rem] cover"
 					/>
 				</div>
-				<Nav />
-
-				<div className="flex flex-wrap max-w-[1500px] w-full justify-center gap-[1.06rem]">
-					{Array.from({ length: 12 }, (_, index) => (
-						<ItemCard key={index} />
+				<div className="flex flex-wrap max-w-[1500px] w-full justify-center gap-[1.06rem] mt-10">
+					{arr.map((item, index) => (
+						<ItemCard
+							key={index}
+							id={item.id}
+							name={item.productName}
+							price={item.price}
+							rating={item.ratings}
+						/>
 					))}
 				</div>
 

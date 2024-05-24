@@ -2,20 +2,18 @@ import { useState } from 'react';
 
 import styles from './imageViewer.module.css';
 
-const ImageViewer = () => {
-	const images = [
-		{ id: 0, src: '/images/ExampleItem.png' },
-		{ id: 1, src: '/images/laptop-img.bmp' },
-		{ id: 2, src: '/images/defuel-products.png' },
-		{ id: 3, src: '/images/defuel-banner.png' },
-	];
+const ImageViewer = ({ images }) => {
 	const [selectedImage, setSelectedImage] = useState(images[0]);
 
 	return (
-		<div className="flex flex-col justify-center items-center px-4">
+		<div className="flex flex-col justify-center items-center px-4 w-full max-w-[30rem] max-h-[30rem]">
 			<div
-				className={`${styles.imgContainer} w-full max-w-[31.375rem] mb-[0.8rem] transition`}>
-				<img className="w-full rounded" src={selectedImage.src} alt="img" />
+				className={`${styles.imgContainer} flex justify-center items-center w-full h-full max-w-[25rem] h-[30rem] mb-[0.8rem] overflow-hidden`}>
+				<img
+					className="w-full rounded object-fit"
+					src={selectedImage.src}
+					alt="img"
+				/>
 			</div>
 			<div className="flex flex-row justify-between items-center w-full max-w-[31.375rem]">
 				{images.map((image, index) => (

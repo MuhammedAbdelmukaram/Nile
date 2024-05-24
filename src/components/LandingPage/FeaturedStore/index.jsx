@@ -1,16 +1,27 @@
+// Libs
+import { useNavigate } from 'react-router-dom';
+// Icons
 import StoreIcon from '../../../assets/icons/StoreIcon';
+// Styles
 import styles from './featuredStore.module.css';
 
-const FeaturedStore = ({ logo, products, variant = 'purple' }) => {
+const FeaturedStore = ({
+	logo,
+	products,
+	variant = 'purple',
+	linkTo = '/store',
+}) => {
+	const navigate = useNavigate();
 	return (
 		<div
-			className={`relative overflow-hidden w-full h-[11.5rem] flex grow ${
+			className={`relative overflow-hidden w-full h-[11.5rem] flex grow cursor-pointer ${
 				variant === 'blue'
 					? styles.bluePrimary
 					: variant === 'yellow'
 					? styles.yellowPrimary
 					: styles.purplePrimary
-			}`}>
+			}`}
+			onClick={() => navigate(linkTo)}>
 			<div
 				className={`absolute -bottom-3/4 -right-1/4 w-[70%] h-[200%] rotate-12 ${
 					variant === 'blue'

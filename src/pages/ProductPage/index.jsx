@@ -34,6 +34,41 @@ const ProductPage = () => {
 		'Wardrobe-Essential: Mens casual boots perfect for working, business, walking or daily wear, also go well with jeans, dressy or casual pants.',
 	];
 
+	const itemInfo = [
+		{ name: 'Fabric', value: '100% Suede' },
+		{ name: 'Origin', value: 'Imported' },
+		{ name: 'Sole Material', value: 'Rubber' },
+		{ name: 'Outer Material', value: '100% Suede' },
+	];
+
+	const crimeEnergy = {
+		id: 0,
+		productName: 'CRIME 500 ml Hydration drink GREENABLE fresh green apple',
+		description: '',
+		images: ['/images/ExampleItem.png'],
+		brand: 'DeFuel',
+		flavour: 'Crime energy',
+		size: '500ml',
+		price: 0.05,
+		discount: [],
+		category: 'Food',
+		subcategory: 'Drink',
+		ratings: 3.5,
+		reviews: [],
+		supplierShop: 'DeFuel',
+		availability: true,
+		tags: [],
+	};
+
+	const arr = new Array(8).fill(crimeEnergy);
+
+	const itemImages = [
+		{ id: 0, src: '/images/ExampleItem.png' },
+		{ id: 1, src: '/images/laptop-img.bmp' },
+		{ id: 2, src: '/images/defuel-products.png' },
+		{ id: 3, src: '/images/defuel-banner.png' },
+	];
+
 	const renderPickers = (gap) => {
 		return (
 			<div className={`flex flex-col items-start gap-${gap}`}>
@@ -85,16 +120,18 @@ const ProductPage = () => {
 				<div
 					className={`${styles.text} flex flex-row justify-start items-center gap-x-2`}>
 					<div className="flex flex-col gap-2">
-						<p className="font-semibold">Fabric type</p>
-						<p className="font-semibold">Origin</p>
-						<p className="font-semibold">Sole Material</p>
-						<p className="font-semibold">Outer Material</p>
+						{itemInfo.map((item, index) => (
+							<p key={index} className="font-semibold">
+								{item.name}
+							</p>
+						))}
 					</div>
 					<div className="flex flex-col gap-2">
-						<p className="font-normal">100% Suede</p>
-						<p className="font-normal">Imported</p>
-						<p className="font-normal">Rubber</p>
-						<p className="font-normal">100% Suede</p>
+						{itemInfo.map((item, index) => (
+							<p key={index} className="font-normal">
+								{item.value}
+							</p>
+						))}
 					</div>
 				</div>
 				<div
@@ -115,7 +152,7 @@ const ProductPage = () => {
 			<div className="w-full flex justify-center">
 				<div className="w-full flex justify-center flex-col px-[1.63rem] max-w-[1500px]">
 					<div className="lg:flex lg:flex-row-reverse lg:justify-start lg:items-start lg:shrink h-full lg:mt-10">
-						<div className="mt-7 lg:mt-0">
+						<div className="mt-7 lg:mt-0 lg:ml-2">
 							<div className="flex flex-row justify-between items-center lg:hidden">
 								<h3>Visit official store</h3>
 								{renderRating('small')}
@@ -141,13 +178,15 @@ const ProductPage = () => {
 							<div className="hidden lg:block mt-5">{renderItemInfo()}</div>
 						</div>
 						<div className="mt-[0.62rem] mb-[0.81rem] flex justify-center items-center lg:justify-start lg:items-start lg:h-full">
-							<ImageViewer />
+							<ImageViewer images={itemImages} />
 						</div>
 					</div>
+
 					<div className="lg:hidden">{renderPickers(5)}</div>
 					<div className="lg:hidden mt-[1.37rem]">{renderButtons()}</div>
 					<div className="lg:hidden mt-[1.87rem]">{renderItemInfo()}</div>
 					<hr className="border-[#999] border mt-10 mb-5 w-screen lg:w-full -mx-[1.63rem] lg:mx-0" />
+
 					<div
 						className={`${styles.text} flex justify-start items-start flex-col min-w-[23.675rem] w-full mt-5`}>
 						<h4 className="mb-[0.62rem]">Looking for something?</h4>
@@ -155,6 +194,7 @@ const ProductPage = () => {
 							<InputField placeholder="Search in Q&A" />
 						</div>
 					</div>
+
 					<hr className="border-[#999] border my-5  w-screen lg:w-full -mx-[1.63rem] lg:mx-0" />
 
 					<div
@@ -222,8 +262,14 @@ const ProductPage = () => {
 					<div className="flex flex-col justify-center items-center px-[1.63rem] max-w-[1500px] mb-10">
 						<h1 className="my-10">Similar Products</h1>
 						<div className="flex flex-wrap justify-center gap-[1.06rem]">
-							{Array.from({ length: 8 }, (_, index) => (
-								<ItemCard key={index} />
+							{arr.map((item, index) => (
+								<ItemCard
+									key={index}
+									id={item.id}
+									name={item.productName}
+									price={item.price}
+									rating={item.ratings}
+								/>
 							))}
 						</div>
 					</div>
@@ -238,7 +284,6 @@ const ProductPage = () => {
 					</div>
 				</div>
 			</div>
-
 			<Footer />
 		</div>
 	);
