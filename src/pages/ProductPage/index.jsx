@@ -99,13 +99,13 @@ const ProductPage = () => {
 		return (
 			<div className="flex flex-row justify-center items-center gap-5 h-10">
 				<Button variant="curved">
-					<div className="w-[9rem] flex justify-center items-center gap-2 py-[0.62rem]">
+					<div className="min-w-[7rem] max-w-[9rem] flex-1 flex justify-center items-center gap-2 py-[0.62rem]">
 						<CartIcon />
 						Add to cart
 					</div>
 				</Button>
 				<Button variant="orange">
-					<div className="w-[9rem] flex justify-center items-center gap-2 text-white py-[0.62rem]">
+					<div className="min-w-[7rem] max-w-[9rem] flex-1 flex justify-center items-center gap-2 text-white py-[0.62rem]">
 						<BagIcon />
 						Buy Now
 					</div>
@@ -116,9 +116,8 @@ const ProductPage = () => {
 
 	const renderItemInfo = () => {
 		return (
-			<div className={`${styles.text} flex flex-col`}>
-				<div
-					className={`${styles.text} flex flex-row justify-start items-center gap-x-2`}>
+			<div className={`${styles.text} flex flex-col w-full`}>
+				<div className={` flex flex-row justify-start items-center gap-x-2`}>
 					<div className="flex flex-col gap-2">
 						{itemInfo.map((item, index) => (
 							<p key={index} className="font-semibold">
@@ -134,8 +133,7 @@ const ProductPage = () => {
 						))}
 					</div>
 				</div>
-				<div
-					className={`${styles.text} flex justify-start items-start flex-col min-w-[23.675rem] w-full mt-5`}>
+				<div className={`flex justify-start items-start flex-col w-full mt-5`}>
 					<p className={`font-semibold`}>About this Item</p>
 					<ul>
 						{itemDesc.map((description, index) => (
@@ -150,7 +148,7 @@ const ProductPage = () => {
 		<div>
 			<Header />
 			<div className="w-full flex justify-center">
-				<div className="w-full flex justify-center flex-col px-[1.63rem] max-w-[1500px]">
+				<div className="w-full flex justify-center flex-col px-[1.63rem] min-w-[320px] max-w-[1500px]">
 					<div className="lg:flex lg:flex-row-reverse lg:justify-start lg:items-start lg:shrink h-full lg:mt-10">
 						<div className="mt-7 lg:mt-0 lg:ml-2">
 							<div className="flex flex-row justify-between items-center lg:hidden">
@@ -188,19 +186,19 @@ const ProductPage = () => {
 					<hr className="border-[#999] border mt-10 mb-5 w-screen lg:w-full -mx-[1.63rem] lg:mx-0" />
 
 					<div
-						className={`${styles.text} flex justify-start items-start flex-col min-w-[23.675rem] w-full mt-5`}>
+						className={`${styles.text} flex justify-start items-start flex-col w-full mt-5`}>
 						<h4 className="mb-[0.62rem]">Looking for something?</h4>
 						<div className="w-full max-w-[28.5rem]">
 							<InputField placeholder="Search in Q&A" />
 						</div>
 					</div>
 
-					<hr className="border-[#999] border my-5  w-screen lg:w-full -mx-[1.63rem] lg:mx-0" />
+					<hr className="border-[#999] border my-5 w-screen lg:w-full -mx-[1.63rem] lg:mx-0" />
 
 					<div
-						className={`${styles.brandInfo} flex justify-start items-start flex-col min-w-[23.675rem] w-full border-t-0 gap-y-[0.31rem]`}>
+						className={`${styles.brandInfo} flex justify-start items-start flex-col w-full border-t-0 gap-y-[0.31rem]`}>
 						<h4>Brand: Apple</h4>
-						<div className="flex flex-col lg:flex-row lg:justify-start lg:items-center lg:w-full gap-x-12">
+						<div className="flex flex-col lg:flex-row lg:justify-start lg:items-center lg:w-full gap-x-12 gap-y-3 lg:gap-y-0">
 							<div>
 								<h5>4.5 Store rating</h5>
 								<p>15k+ customers rate products from this brand highly</p>
@@ -218,7 +216,7 @@ const ProductPage = () => {
 					<hr className="border-[#999] border my-5 w-screen lg:w-full -mx-[1.63rem] lg:mx-0" />
 
 					<div
-						className={`${styles.text} flex flex-col lg:flex-row justify-start items-start min-w-[23.675rem] w-full mt-5`}>
+						className={`${styles.text} flex flex-col lg:flex-row justify-start items-start w-full mt-5`}>
 						<div className="flex flex-col justify-start items-start mr-16">
 							<h2>Customer Reviews</h2>
 							<div className="my-[0.62rem]">{renderRating('normal')}</div>
@@ -228,8 +226,8 @@ const ProductPage = () => {
 									<div
 										key={index}
 										className="flex flex-row gap-[0.56rem] items-center">
-										<p className="w-[2.4rem] text-nowrap">{review.name}</p>
-										<div className="w-56">
+										<p className="w-12 text-nowrap">{review.name}</p>
+										<div className="w-48">
 											<ProgressBar percentage={review.percentage} />
 										</div>
 										<p>{review.percentage}%</p>
@@ -237,25 +235,24 @@ const ProductPage = () => {
 								))}
 							</div>
 						</div>
-						<div className="flex flex-col justify-start items-start lg:max-w-[25.5rem] ">
+						<div
+							className={`${styles.text} flex flex-col justify-start items-start w-full`}>
 							<div
-								className={`${styles.text} flex justify-start items-start flex-col w-full mt-5`}>
+								className={`flex justify-start items-start flex-col w-full mt-5 lg:max-w-[25.5rem]`}>
 								<p className="font-medium">Customers say</p>
-								<p className="mt-[0.31rem]">
+								<p className="mt-[0.31rem] w-full">
 									Lorem ipsum dolor sit amet consectetur. Scelerisque
 									pellentesque pharetra egestas massa amet magna mattis semper
 									id. Sodales enim sit rhoncus.
 								</p>
-							</div>
-							<div className="mt-5 flex flex-col w-full">
-								<p className="font-medium">Write a review</p>
+								<p className="font-medium mt-5">Write a review</p>
 								<div className="mt-[0.31rem] w-full">
 									<InputField placeholder="Write a review" />
 								</div>
+								<a className="mt-5 cursor-pointer hover:underline hover:opacity-80 transition">
+									View all reviews
+								</a>
 							</div>
-							<a className="mt-5 cursor-pointer hover:underline hover:opacity-80 transition">
-								View all reviews
-							</a>
 						</div>
 					</div>
 

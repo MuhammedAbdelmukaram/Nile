@@ -63,86 +63,86 @@ const LandingPage = () => {
 	return (
 		<div className="w-[100vw]">
 			<Header />
-			<div className="w-full flex flex-col justify-center px-[1.63rem]">
-				<div>
-					<Carousel images={carouselImages} />
-				</div>
-			</div>
-			<div>
-				<DiscountBanner />
-			</div>
 			<div className="w-full flex justify-center">
-				<div className="w-full flex justify-center flex-col px-[1.63rem] max-w-[1500px]">
-					<FeaturedItem product={laptop} />
-					<h1 className="mt-10 w-full flex justify-center items-center">
-						Check out our Featured stores
-					</h1>
+				<div className="w-full flex justify-center flex-col px-[1.63rem] min-w-[320px] max-w-[1500px] overflow-x-hidden">
+					<div className="w-full flex flex-col justify-center">
+						<Carousel images={carouselImages} />
+					</div>
+					<DiscountBanner />
+					<div className="w-full flex justify-center">
+						<div className="w-full flex justify-center flex-col">
+							<FeaturedItem product={laptop} />
+							<h1 className="mt-10 w-full flex justify-center items-center">
+								Check out our Featured stores
+							</h1>
 
-					<div className="flex flex-row flex-wrap justify-center gap-[0.63rem]">
-						<div className="w-full sm:basis-full">
-							<FeaturedStore
-								variant="purple"
-								logo={'/images/defuel-logo.png'}
-								products={'/images/defuel-products.png'}
-							/>
-						</div>
-						<div className="w-full md:basis-1/2-gap">
-							<FeaturedStore
-								variant="blue"
-								logo={'/images/defuel-logo.png'}
-								products={'/images/defuel-products.png'}
-							/>
-						</div>
-						<div className="w-full md:basis-1/2-gap">
-							<FeaturedStore
-								variant="yellow"
-								logo={'/images/defuel-logo.png'}
-								products={'/images/defuel-products.png'}
-							/>
-						</div>
-					</div>
+							<div className="flex flex-row flex-wrap justify-center gap-[0.63rem]">
+								<div className="w-full sm:basis-full">
+									<FeaturedStore
+										variant="purple"
+										logo={'/images/defuel-logo.png'}
+										products={'/images/defuel-products.png'}
+									/>
+								</div>
+								<div className="w-full md:basis-1/2-gap">
+									<FeaturedStore
+										variant="blue"
+										logo={'/images/defuel-logo.png'}
+										products={'/images/defuel-products.png'}
+									/>
+								</div>
+								<div className="w-full md:basis-1/2-gap">
+									<FeaturedStore
+										variant="yellow"
+										logo={'/images/defuel-logo.png'}
+										products={'/images/defuel-products.png'}
+									/>
+								</div>
+							</div>
 
-					<h1 className="my-10 w-full flex justify-center items-center">
-						From DeFuel Store
-					</h1>
-					<div className="flex flex-wrap justify-center gap-[1.06rem]">
-						{arr.map((item, index) => (
-							<ItemCard
-								key={index}
-								id={item.id}
-								name={item.productName}
-								price={item.price}
-								rating={item.ratings}
-							/>
-						))}
-					</div>
-					<h1 className="my-10 w-full flex justify-center items-center">
-						From DeByte Store
-					</h1>
-					<div className="flex flex-wrap justify-center gap-[1.06rem]">
-						{arr.map((item, index) => (
-							<ItemCard
-								key={index}
-								id={item.id}
-								name={item.productName}
-								price={item.price}
-								rating={item.ratings}
-							/>
-						))}
-					</div>
-					<h1 className="my-10 w-full flex justify-center items-center">
-						From DeStore Store
-					</h1>
-					<div className="flex flex-wrap justify-center gap-[1.06rem]">
-						{arr.map((item, index) => (
-							<ItemCard
-								key={index}
-								id={item.id}
-								name={item.productName}
-								price={item.price}
-								rating={item.ratings}
-							/>
-						))}
+							<h1 className="my-10 w-full flex justify-center items-center">
+								From DeFuel Store
+							</h1>
+							<div className="flex flex-wrap justify-center gap-[1.06rem]">
+								{arr.map((item, index) => (
+									<ItemCard
+										key={index}
+										id={item.id}
+										name={item.productName}
+										price={item.price}
+										rating={item.ratings}
+									/>
+								))}
+							</div>
+							<h1 className="my-10 w-full flex justify-center items-center">
+								From DeByte Store
+							</h1>
+							<div className="flex flex-wrap justify-center gap-[1.06rem]">
+								{arr.map((item, index) => (
+									<ItemCard
+										key={index}
+										id={item.id}
+										name={item.productName}
+										price={item.price}
+										rating={item.ratings}
+									/>
+								))}
+							</div>
+							<h1 className="my-10 w-full flex justify-center items-center">
+								From DeStore Store
+							</h1>
+							<div className="flex flex-wrap justify-center gap-[1.06rem]">
+								{arr.map((item, index) => (
+									<ItemCard
+										key={index}
+										id={item.id}
+										name={item.productName}
+										price={item.price}
+										rating={item.ratings}
+									/>
+								))}
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>

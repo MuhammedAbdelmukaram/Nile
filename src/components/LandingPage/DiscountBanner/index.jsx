@@ -6,7 +6,7 @@ const DiscountBanner = () => {
 
 	return (
 		<div className="w-full relative flex justify-center items-center mt-10">
-			<div className="w-32 h-32 absolute left-0 top-1/2 transform -translate-x-1/2 -translate-y-1/2">
+			<div className="w-32 h-32 absolute left-0 top-1/2 transform -translate-x-3/4 -translate-y-1/2">
 				{rectangle()}
 			</div>
 			<div
@@ -16,7 +16,7 @@ const DiscountBanner = () => {
 					Sale starts in: <b>countdown</b>
 				</div>
 			</div>
-			<div className="w-32 h-32 absolute right-0 top-1/2 transform translate-x-1/2 -translate-y-1/2">
+			<div className="w-32 h-32 absolute right-0 top-1/2 transform translate-x-3/4 -translate-y-1/2">
 				{rectangle()}
 			</div>
 		</div>

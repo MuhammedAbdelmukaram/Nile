@@ -72,7 +72,7 @@ const Nav = () => {
 					<Search />
 				</div>
 				<div
-					className="lg:hidden flex flex-row justify-center items-center gap-2"
+					className="lg:hidden flex flex-row justify-center items-center gap-2 cursor-pointer"
 					onClick={() => setShowMenu(!showMenu)}>
 					Categories{' '}
 					<span
