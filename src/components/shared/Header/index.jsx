@@ -42,8 +42,12 @@ const Header = () => {
 				</button>
 				<div className="hidden sm:block">{renderSearch()}</div>
 				<div className="flex flex-row justify-end items-center gap-5">
-					<CartIcon />
-					<UserIcon />
+					<div className="w-[24px] h-[24px]">
+						<CartIcon />
+					</div>
+					<div className="w-[24px] h-[24px]">
+						<UserIcon />
+					</div>
 					<Button onClick={handleWalletClick}>
 						<WalletIcon /> Connect Wallet
 					</Button>
