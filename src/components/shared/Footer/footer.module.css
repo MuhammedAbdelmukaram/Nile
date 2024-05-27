@@ -1,0 +1,33 @@
+footer {
+	padding: 0 1.56rem;
+}
+
+.logo {
+	object-fit: cover;
+	width: 5.0625rem;
+	height: 3.00288rem;
+}
+
+.logoContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 5.0625rem;
+	height: 3.00288rem;
+	overflow: hidden;
+	margin-left: -1.3rem;
+}
+
+.subscribeContainer {
+	outline: 1px solid #5497d5;
+	height: 2.625rem;
+	padding: 0;
+}
+
+.emailContact {
+	margin-top: 0.62rem;
+}
+
+.copyRight {
+	margin: 0.6rem 0;
+}

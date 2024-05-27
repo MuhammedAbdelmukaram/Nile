@@ -1,0 +1,42 @@
+.purplePrimary {
+	background-color: #8752f3;
+}
+
+.purpleSecondary {
+	background-color: #a478ff;
+}
+
+.bluePrimary {
+	background-color: #5497d5;
+}
+
+.blueSecondary {
+	background-color: #88c2f8;
+}
+
+.yellowPrimary {
+	background-color: #f2b031;
+}
+
+.yellowSecondary {
+	background-color: #ffd074;
+}
+
+.officialStore {
+	color: #fff;
+	font-family: Poppins, sans-serif;
+	font-size: 0.9375rem;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 1.125rem;
+	width: 4.5rem;
+}
+
+.directly {
+	color: #fff;
+	font-family: Poppins, sans-serif;
+	font-size: 0.8125rem;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 1.125rem;
+}

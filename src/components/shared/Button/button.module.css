@@ -1,0 +1,49 @@
+.button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0.625rem 0.9375rem;
+	gap: 0.5625rem;
+	border: none;
+	cursor: pointer;
+
+	font-family: 'Poppins', sans-serif;
+	font-weight: 500;
+	font-size: 0.8125rem;
+	line-height: normal;
+
+	transition: all 0.3s;
+
+	height: 100%;
+}
+
+.button:hover {
+	opacity: 0.8;
+}
+
+.primary {
+	background: #3679fa;
+	color: white;
+}
+
+.curved {
+	background: #3679fa;
+	color: white;
+	border-radius: 0.9375rem;
+}
+
+.secondary {
+	background: transparent;
+	color: #2d2d2d;
+	border: 1px solid #2d2d2d;
+}
+.secondaryNoCurve {
+	background: transparent;
+	color: #2d2d2d;
+	border: 1px solid #2d2d2d;
+}
+
+.orange {
+	border-radius: 0.9375rem;
+	background: #ed7e19;
+}
