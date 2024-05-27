@@ -15,10 +15,10 @@ const ImageViewer = ({ images }) => {
 					alt="img"
 				/>
 			</div>
-			<div className="flex flex-row justify-between items-center w-full max-w-[31.375rem]">
+			<div className="flex flex-row justify-between items-center w-full max-w-[31.375rem] gap-1">
 				{images.map((image, index) => (
 					<button
-						className={`${styles.imgContainer} flex justify-center items-center w-[5.09156rem] h-[4.43156rem] `}
+						className={`${styles.imgContainer} flex justify-center items-center w-[5.09156rem] h-[4.43156rem] overflow-hidden`}
 						key={index}
 						onClick={() => setSelectedImage(image)}>
 						<img
