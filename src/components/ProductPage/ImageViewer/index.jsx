@@ -6,16 +6,16 @@ const ImageViewer = ({ images }) => {
 	const [selectedImage, setSelectedImage] = useState(images[0]);
 
 	return (
-		<div className="flex flex-col justify-center items-center px-4 w-full w-[20rem] h-[20rem]">
+		<div className="flex flex-col justify-center items-center w-[20rem] h-[20rem]">
 			<div
-				className={`${styles.imgContainer} flex justify-center items-center w-full h-[20rem] w-[20rem] mb-[0.8rem] overflow-hidden`}>
+				className={`${styles.imgContainer} flex justify-center items-center h-[20rem] w-[20rem] mb-[0.8rem] overflow-hidden`}>
 				<img
-					className="w-full rounded object-fit"
+					className="w-full rounded object-cover"
 					src={selectedImage.src}
 					alt="img"
 				/>
 			</div>
-			<div className="flex flex-row justify-between items-center w-full max-w-[31.375rem] gap-1">
+			<div className="flex flex-row justify-between items-center w-full gap-1">
 				{images.map((image, index) => (
 					<button
 						className={`${styles.imgContainer} flex justify-center items-center w-[5.09156rem] h-[4.43156rem] overflow-hidden`}
