@@ -77,21 +77,21 @@ const LandingPage = () => {
 							</h1>
 
 							<div className="flex flex-row flex-wrap justify-center gap-[0.63rem]">
-								<div className="w-full sm:basis-full">
+								<div className="w-full sm:basis-full transition-transform duration-300 hover:scale-105" >
 									<FeaturedStore
 										variant="purple"
 										logo={'/images/defuel-logo.png'}
 										products={'/images/defuel-products.png'}
 									/>
 								</div>
-								<div className="w-full md:basis-1/2-gap">
+								<div className="w-full md:basis-1/2-gap transition-transform duration-300 hover:scale-105 hover:z-10">
 									<FeaturedStore
 										variant="blue"
 										logo={'/images/defuel-logo.png'}
 										products={'/images/defuel-products.png'}
 									/>
 								</div>
-								<div className="w-full md:basis-1/2-gap">
+								<div className="w-full md:basis-1/2-gap transition-transform duration-300 hover:scale-105">
 									<FeaturedStore
 										variant="yellow"
 										logo={'/images/defuel-logo.png'}

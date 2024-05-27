@@ -10,7 +10,7 @@ const ImageViewer = ({ images }) => {
 			<div
 				className={`${styles.imgContainer} flex justify-center items-center w-full h-full max-w-[25rem] h-[30rem] mb-[0.8rem] overflow-hidden`}>
 				<img
-					className="w-full rounded object-fit"
+					className="w-full rounded object-fit "
 					src={selectedImage.src}
 					alt="img"
 				/>
@@ -18,7 +18,7 @@ const ImageViewer = ({ images }) => {
 			<div className="flex flex-row justify-between items-center w-full max-w-[31.375rem]">
 				{images.map((image, index) => (
 					<button
-						className={`${styles.imgContainer} flex justify-center items-center w-[5.09156rem] h-[4.43156rem]`}
+						className={`${styles.imgContainer} flex justify-center items-center w-[5.09156rem] h-[4.43156rem] `}
 						key={index}
 						onClick={() => setSelectedImage(image)}>
 						<img

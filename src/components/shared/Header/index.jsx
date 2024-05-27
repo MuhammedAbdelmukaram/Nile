@@ -56,7 +56,7 @@ const Header = () => {
 			<div className="block mt-3 sm:hidden">{renderSearch()}</div>
 			<div
 				className={`${styles.actionsRibbon} px-6 flex justify-start items-center sm:justify-between`}>
-				<ul className="overflow-x-scroll">
+				<ul>
 					{actionsList.map((item) => (
 						<li key={item}>{item}</li>
 					))}

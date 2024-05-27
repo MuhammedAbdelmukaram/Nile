@@ -33,7 +33,7 @@ const StorePage = () => {
 		<div>
 			<Header />
 			<Nav />
-			<div className="max-w-[1500px] min-h-[4.28175rem] w-full mt-5">
+			<div className="w-full min-h-[4.28175rem] w-full mt-5">
 				<img
 					src="/images/defuel-banner.png"
 					alt="banner"
