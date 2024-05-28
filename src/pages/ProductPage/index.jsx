@@ -175,7 +175,7 @@ const ProductPage = () => {
 							<div className="hidden lg:block mt-5">{renderPickers(2)}</div>
 							<div className="hidden lg:block mt-5">{renderItemInfo()}</div>
 						</div>
-						<div className="mt-[0.62rem] mb-[0.81rem] flex justify-center items-center lg:justify-start lg:items-start lg:h-full">
+						<div className="mt-[0.62rem] mb-[0.81rem]  sm:mr-[1.81rem] flex justify-center items-center lg:justify-start lg:items-start lg:h-full">
 							<ImageViewer images={itemImages} />
 						</div>
 					</div>
